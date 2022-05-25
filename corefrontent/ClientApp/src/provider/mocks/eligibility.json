@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "isSelected": false,
+      "employeeClassification": "EC-101"
+    },
+    {
+      "id": 2,
+      "isSelected": false,
+      "employeeClassification": "EC-102"
+    },
+    {
+      "id": 3,
+      "isSelected": false,
+      "employeeClassification": "EC-103"
+    },
+    {
+      "id": 4,
+      "isSelected": false,
+      "employeeClassification": "EC-104"
+    },
+    {
+        "id": 5,
+        "isSelected": false,
+        "employeeClassification": "EC-105"
+    },
+    {
+        "id": 6,
+        "isSelected": false,
+        "employeeClassification": "EC-106"
+    },
+    {
+        "id": 7,
+        "isSelected": false,
+        "employeeClassification": "EC-107"
+    },
+    {
+        "id": 8,
+        "isSelected": false,
+        "employeeClassification": "EC-108"
+    }
+  ]
+  

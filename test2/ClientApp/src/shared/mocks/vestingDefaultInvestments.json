@@ -1,0 +1,14 @@
+{
+    "data": [
+      { "label": "Investment 101", "value": 1 },
+      { "label": "Investment 102", "value": 2 },
+      { "label": "Investment 103", "value": 3 },
+      { "label": "ABC Equity", "value": 4 },
+      { "label": "EMU Properly 1", "value": 5 },
+      { "label": "Investment 102", "value": 6 },
+      { "label": "Investment 103", "value": 7 },
+      { "label": "Investment 102", "value": 8 },
+      { "label": "Investment 102", "value": 9 }
+    ]
+  }
+  

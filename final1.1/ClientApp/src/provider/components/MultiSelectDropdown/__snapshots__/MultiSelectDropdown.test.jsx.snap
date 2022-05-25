@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiSelectDropdown - sprint 4 to match default snapshot 1`] = `
+<body>
+  <div>
+    <div>
+      <div
+        class="loader-wrapper "
+      >
+        <div
+          class=" md form-group"
+        >
+          <label
+            class="form-label"
+          >
+            Multi Select
+             
+          </label>
+          <span
+            class="total-selected"
+          />
+          <button
+            class="select-all-btn btn btn-link"
+            type="button"
+          >
+            Select All
+          </button>
+          <div
+            class="custom-control custom-checkbox"
+          >
+            <input
+              class="custom-control-input"
+              id="custom-radio-1"
+              name="multiSelect"
+              type="checkbox"
+            />
+            <label
+              class="custom-control-label"
+              for="custom-radio-1"
+              title=""
+            >
+              Location 1
+            </label>
+          </div>
+          <div
+            class="custom-control custom-checkbox"
+          >
+            <input
+              class="custom-control-input"
+              id="custom-radio-2"
+              name="multiSelect"
+              type="checkbox"
+            />
+            <label
+              class="custom-control-label"
+              for="custom-radio-2"
+              title=""
+            >
+              Location 2
+            </label>
+          </div>
+          <div
+            class="custom-control custom-checkbox"
+          >
+            <input
+              class="custom-control-input"
+              id="custom-radio-3"
+              name="multiSelect"
+              type="checkbox"
+            />
+            <label
+              class="custom-control-label"
+              for="custom-radio-3"
+              title=""
+            >
+              Location 3
+            </label>
+          </div>
+          <div
+            class="custom-control custom-checkbox"
+          >
+            <input
+              class="custom-control-input"
+              id="custom-radio-4"
+              name="multiSelect"
+              type="checkbox"
+            />
+            <label
+              class="custom-control-label"
+              for="custom-radio-4"
+              title=""
+            >
+              Location 4
+            </label>
+          </div>
+          <div
+            class="custom-control custom-checkbox"
+          >
+            <input
+              class="custom-control-input"
+              id="custom-radio-5"
+              name="multiSelect"
+              type="checkbox"
+            />
+            <label
+              class="custom-control-label"
+              for="custom-radio-5"
+              title=""
+            >
+              Location 5
+            </label>
+          </div>
+          <div
+            class="custom-control custom-checkbox"
+          >
+            <input
+              class="custom-control-input"
+              id="custom-radio-6"
+              name="multiSelect"
+              type="checkbox"
+            />
+            <label
+              class="custom-control-label"
+              for="custom-radio-6"
+              title=""
+            >
+              Location 6
+            </label>
+          </div>
+        </div>
+        <div
+          class="form-group"
+        >
+          <button
+            class="multiselect-submit btn btn-primary"
+            type="button"
+          >
+            Select
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`MultiSelectDropdown - sprint 4 to match loading snapshot 1`] = `
+<body>
+  <div>
+    <div>
+      <div
+        class="loader-wrapper "
+      >
+        <div
+          class="loader-wrapper-overlay"
+        >
+          <div
+            class="spinner-row d-flex align-items-center"
+          >
+            <div
+              class="spinner-border"
+              role="status"
+            >
+              <span
+                class="sr-only"
+              >
+                Loading...
+              </span>
+            </div>
+              
+            Loading
+          </div>
+        </div>
+        <div
+          class=" md form-group"
+        >
+          <label
+            class="form-label"
+          >
+            Multi Select
+             
+          </label>
+          <span
+            class="total-selected"
+          />
+          <button
+            class="select-all-btn btn btn-link"
+            type="button"
+          >
+            Select All
+          </button>
+          <div
+            class="custom-control custom-checkbox"
+          >
+            <input
+              class="custom-control-input"
+              id="custom-radio-1"
+              name="multiSelect"
+              type="checkbox"
+            />
+            <label
+              class="custom-control-label"
+              for="custom-radio-1"
+              title=""
+            >
+              Location 1
+            </label>
+          </div>
+          <div
+            class="custom-control custom-checkbox"
+          >
+            <input
+              class="custom-control-input"
+              id="custom-radio-2"
+              name="multiSelect"
+              type="checkbox"
+            />
+            <label
+              class="custom-control-label"
+              for="custom-radio-2"
+              title=""
+            >
+              Location 2
+            </label>
+          </div>
+          <div
+            class="custom-control custom-checkbox"
+          >
+            <input
+              class="custom-control-input"
+              id="custom-radio-3"
+              name="multiSelect"
+              type="checkbox"
+            />
+            <label
+              class="custom-control-label"
+              for="custom-radio-3"
+              title=""
+            >
+              Location 3
+            </label>
+          </div>
+          <div
+            class="custom-control custom-checkbox"
+          >
+            <input
+              class="custom-control-input"
+              id="custom-radio-4"
+              name="multiSelect"
+              type="checkbox"
+            />
+            <label
+              class="custom-control-label"
+              for="custom-radio-4"
+              title=""
+            >
+              Location 4
+            </label>
+          </div>
+          <div
+            class="custom-control custom-checkbox"
+          >
+            <input
+              class="custom-control-input"
+              id="custom-radio-5"
+              name="multiSelect"
+              type="checkbox"
+            />
+            <label
+              class="custom-control-label"
+              for="custom-radio-5"
+              title=""
+            >
+              Location 5
+            </label>
+          </div>
+          <div
+            class="custom-control custom-checkbox"
+          >
+            <input
+              class="custom-control-input"
+              id="custom-radio-6"
+              name="multiSelect"
+              type="checkbox"
+            />
+            <label
+              class="custom-control-label"
+              for="custom-radio-6"
+              title=""
+            >
+              Location 6
+            </label>
+          </div>
+        </div>
+        <div
+          class="form-group"
+        >
+          <button
+            class="multiselect-submit btn btn-primary"
+            type="button"
+          >
+            Select
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

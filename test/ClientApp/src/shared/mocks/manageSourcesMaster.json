@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "isSelected": false,
+    "sourceName": "EP-DS1",
+    "sourceCategory": 1,
+    "status": 0
+  },
+  {
+    "id": 2,
+    "isSelected": false,
+    "sourceName": "EP-DS12",
+    "sourceCategory": 1,
+    "status": 0
+  },
+  {
+    "id": 3,
+    "isSelected": false,
+    "sourceName": "ER-M1",
+    "sourceCategory": 2,
+    "status": 1
+  },
+  {
+    "id": 4,
+    "isSelected": false,
+    "sourceName": "EP-DS8",
+    "sourceCategory": 1,
+    "status": 0
+  },
+  {
+    "id": 5,
+    "isSelected": false,
+    "sourceName": "EP-DS4",
+    "sourceCategory": 1,
+    "status": 0
+  },
+  {
+    "id": 6,
+    "isSelected": false,
+    "sourceName": "ER-O1",
+    "sourceCategory": 3,
+    "status": 0
+  },
+  {
+    "id": 7,
+    "isSelected": false,
+    "sourceName": "ER-DS2",
+    "sourceCategory": 3,
+    "status": 0
+  },
+  {
+    "id": 8,
+    "isSelected": false,
+    "sourceName": "ER-DS2",
+    "sourceCategory": 2,
+    "status": 0
+  },
+  {
+    "id": 9,
+    "isSelected": false,
+    "sourceName": "ER-O1",
+    "sourceCategory": 4,
+    "status": 0
+  }
+]

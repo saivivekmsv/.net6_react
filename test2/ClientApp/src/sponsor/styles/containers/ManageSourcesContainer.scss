@@ -1,0 +1,17 @@
+.cspl-table {
+  .column-source-name {
+    width: 25%;
+  }
+  .column-source-catergory {
+    width: 35%;
+  }
+  .column-source-status {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1366px) and (min-width: 1024px) {
+  .md-ml-4 {
+    margin-left: 4.5rem;
+  }
+}

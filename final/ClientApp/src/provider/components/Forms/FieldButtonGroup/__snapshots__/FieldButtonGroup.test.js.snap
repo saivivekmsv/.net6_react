@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldButtonGroup - sprint 4 to match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="required md form-group"
+    >
+      <label
+        class="form-label"
+      >
+        Company type
+         
+      </label>
+      <div
+        class="form-control form-button-group "
+      >
+        <div
+          aria-label="Company type"
+          class="btn-group"
+          name="companyType"
+          role="group"
+        >
+          <button
+            class="selected btn btn-primary"
+            data-attr="true"
+            type="button"
+          >
+            Yes
+          </button>
+          <button
+            class="btn btn-primary"
+            data-attr="false"
+            type="button"
+          >
+            No
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChipButtonGroup to match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="chip-button-group d-flex align-items-center"
+    >
+      <button
+        class="chip-buttons  btn btn-primary"
+        id="chip-buttons-null"
+        type="button"
+      >
+        All
+      </button>
+      <button
+        class="chip-buttons  btn btn-primary"
+        id="chip-buttons-0"
+        type="button"
+      >
+        Regular
+      </button>
+      <button
+        class="chip-buttons  btn btn-primary"
+        id="chip-buttons-1"
+        type="button"
+      >
+        MEP
+      </button>
+      <button
+        class="chip-buttons  btn btn-primary"
+        id="chip-buttons-2"
+        type="button"
+      >
+        PEP
+      </button>
+      <button
+        class="chip-buttons  btn btn-primary"
+        id="chip-buttons-3"
+        type="button"
+      >
+        Sponsoring Org.
+      </button>
+    </div>
+  </div>
+</body>
+`;

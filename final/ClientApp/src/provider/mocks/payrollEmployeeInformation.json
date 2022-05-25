@@ -1,0 +1,86 @@
+[
+  {
+    "id": 123,
+    "employeeFirstName": "Steve",
+    "employeeMiddleName": "Rogers",
+    "employeeLastName": "Avengers",
+    "socialSecurityNumber": "123235346",
+    "companyName": "ACME",
+    "employeeId": "12345",
+    "payrollFrequency": 1,
+    "gender": 1,
+    "maritalStatus": 1,
+    "email": "test@test.com",
+    "phoneNumber": "14457679345",
+    "addressName": "test 1",
+    "addressOne": "test 2",
+    "addressTwo": "test 3",
+    "addressThree": "test 5",
+    "city": "chennai",
+    "country": "India",
+    "state": "Tamil nadu",
+    "zipCode": "623709",
+    "additionalAddressName": "",
+    "additionalAddressOne": "",
+    "additionalAddressTwo": "",
+    "additionalAddressThree": "",
+    "additionalCity": "",
+    "additionalForeignAddress": "",
+    "additionalCountry": "",
+    "additionalState": "",
+    "additionalZipCode": "",
+    "dateOfBirth": "2010-11-02",
+    "hireDate": "2010-11-02",
+    "employmentStatus": "Success",
+    "mostRecentTermDate": "2010-11-02",
+    "mostRecentRehireDate": "2010-11-02",
+    "employeeClassification": [
+      {
+        "id": 1,
+        "classificationType": "Division",
+        "classificationCode": "Cosmetics",
+        "classificationName": "DK",
+        "startDate": "01/01/2019",
+        "endDate": "20/11/2019"
+      },
+      {
+        "id": 2,
+        "classificationType": "Location",
+        "classificationCode": "NY",
+        "classificationName": "UK",
+        "startDate": "01/01/2019",
+        "endDate": "31/11/2019"
+      }
+    ],
+    "pendingQDRO": true,
+    "ownership": "10",
+    "familyMemberOfOwner": true,
+    "SSNofOwner": "test",
+    "returnMailIndicator": false,
+    "officer": true,
+    "HCE": true,
+    "keyEmployee": true,
+    "restrictedEmployee": "test"
+  },
+  {
+    "id": 1,
+    "employeeClassification": [
+      {
+        "id": 1,
+        "classificationType": "Division",
+        "classificationCode": "Cosmetics",
+        "classificationName": "DK",
+        "startDate": "01/01/2019",
+        "endDate": "Thu Dec 03 2020 00:00:00 GMT+0530 (India Standard Time)"
+      },
+      {
+        "id": 2,
+        "classificationType": "Location",
+        "classificationCode": "NY",
+        "classificationName": "UK",
+        "startDate": "01/01/2019",
+        "endDate": "Thu Dec 03 2020 00:00:00 GMT+0530 (India Standard Time)"
+      }
+    ]
+  }
+]

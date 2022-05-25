@@ -1,0 +1,13 @@
+{
+  "data": [
+    { "label": "2 Year Cliff", "value": 1 },
+    { "label": "3 Year Cliff", "value": 2 },
+    { "label": "5 Year Cliff", "value": 3 },
+    { "break": true },
+    { "label": "4 Year Graded", "value": 4 },
+    { "label": "5 Year Graded", "value": 5 },
+    { "label": "6 Year Graded", "value": 6 },
+    { "break": true },
+    { "label": "Other", "value": 7 }
+  ]
+}

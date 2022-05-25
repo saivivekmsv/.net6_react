@@ -1,0 +1,18 @@
+{
+  "data": [
+    "All",
+    "Creation in progress",
+    "Upload in progress",
+    "Error Correction Required",
+    "Pending Submission",
+    "Awaiting Funding",
+    "Awaiting Trade",
+    "Completed",
+    "Cancelled",
+    "Deleted",
+    "Duplicate Records Found",
+    "Obsolete",
+    "Error in File Processor",
+    "SystemFailure"
+  ]
+}

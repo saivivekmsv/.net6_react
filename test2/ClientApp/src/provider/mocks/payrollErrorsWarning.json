@@ -1,0 +1,511 @@
+[
+  {
+    "ssn": "1234-45-2008",
+    "name": "Peter parker",
+    "dateOfBirth": "12/15/2018",
+    "census": {
+      "personalDetails": {
+        "firstName": "Parker",
+        "lastName": "Peter",
+        "payPeriod": "",
+        "gender": 1,
+        "maritalStatus": 1,
+        "newPlanName": "Plan name",
+        "dateOfBirth": "12/12/1989"
+      },
+      "contactDetails": {
+        "email": "abc.gm.com",
+        "phone": "123456789",
+        "city": "Arizona",
+        "state": "Alaska",
+        "zipCode": "60171",
+        "primaryPhone": "1123456789",
+        "secondaryPhone": "1123456789",
+        "address1": "19A Church ST sutherland",
+        "address2": "19A Church ST sutherland",
+        "dateOfBirth": "12/12/1989",
+        "hireDate": "12/12/2015",
+        "employmentStatus": "Employed",
+        "mostRecentTermDate": "05/12/2020",
+        "mostRecentRehireDate": "01/01/2021"
+      },
+      "employeeClassification": [
+        {
+          "type": "Divsion",
+          "code": "Cosmetics",
+          "name": "DK",
+          "startDate": "12/02/1990",
+          "endDate": "12/02/2020"
+        },
+        {
+          "type": "Location",
+          "code": "NY",
+          "name": "US",
+          "startDate": "12/02/1993",
+          "endDate": "12/02/2023"
+        },
+        {
+          "type": "Divsion",
+          "code": "Cosmetics",
+          "name": "DK",
+          "startDate": "12/02/1996",
+          "endDate": "12/02/2026"
+        }
+      ],
+      "otherInformation": {
+        "pendingQdro": true,
+        "ownership": 20,
+        "familyOfOwener": true,
+        "ssnOfOwner": "",
+        "returnMailIndicator": false,
+        "isOfficer": true,
+        "isHCE": true,
+        "isKeyEmployee": true,
+        "insiderOrRestrictedEmployee": 2
+      },
+      "warnings": [
+        {
+          "field": "email",
+          "code": "006",
+          "message": "Email: not a valid format",
+          "active": "census"
+        },
+        {
+          "field": "primaryPhone",
+          "code": "007",
+          "message": "Phone: not a valid format",
+          "active": "census"
+        }
+      ],
+      "errors": [
+        {
+          "field": "gender",
+          "code": "001",
+          "message": "Gender: select a valid option",
+          "active": "census"
+        },
+        {
+          "field": "employeeClassification[0].type",
+          "code": "002",
+          "message": "Employee classification type select a valid option",
+          "active": "census"
+        }
+      ]
+    },
+    "payroll": {
+      "firstName": "Parker",
+      "employeeId": "123456",
+      "employeeStatus": "Terminated",
+      "mostRecentTermDate": "05/12/2020",
+      "payrollFrequency": "Monthly",
+      "highlyCompensated": "Yes",
+      "hireDate": "12/12/2015",
+      "mostRecentHireDate": "12/12/2015",
+      "compensationDetails": [
+        {
+          "planId": "401BS",
+          "description": "Pay period hours",
+          "contributionAmount": "670.00",
+          "isError": true,
+          "errorCode": "06",
+          "errorMessage": "Gross compensation exists for the payroll date"
+        }
+      ],
+      "contributionsDetails": [
+        {
+          "isError": true,
+          "planId": "401BS",
+          "contributionSource": "Employee After Tax",
+          "contributionAmount": "100.00",
+          "calculatedValue": "",
+          "errorCode": "03",
+          "errorMessage": "Hours received for employee who is separated from service and with termination date more than 40 days prior to current date. To accept this value click on 'Accept Record as is' or remove the hours and click on 'Submit'."
+        }
+      ],
+      "loanDetails": [
+        {
+          "planId": "401BS",
+          "loanId": "1",
+          "outstandingLoanAmount": "1000.00",
+          "periodicPaymentAmount": "100.00",
+          "loanStatus": "Active"
+        },
+        {
+          "planId": "401BS",
+          "loanId": "2",
+          "outstandingLoanAmount": "0.00",
+          "periodicPaymentAmount": "0.00",
+          "loanStatus": "Closed"
+        }
+      ],
+      "errorReport": [
+        {
+          "planId": "401BS",
+          "loanId": "21",
+          "loanRepaymentAmount": "200.00",
+          "errorCode": "02",
+          "errorMessage": "Loan repayment amount for this employee is in excess of the outstanding loan balance.  Please correct the loan repayment amount to reflect the expected repayment amount and click on 'Submit & Update'",
+          "isError": true
+        }
+      ],
+      "warnings": [
+        {
+          "field": "compensationDetails[0].contributionAmount",
+          "code": "006",
+          "message": "Gross compensation exists for the payroll date",
+          "active": "payroll"
+        }
+      ],
+      "errors": [
+        {
+          "field": "contributionsDetails[0].contributionAmount",
+          "code": "006",
+          "message": "Hours received for employee who is separated from service and with termination date more than 40 days prior to current date. To accept this value click on 'Accept Record as is' or remove the hours and click on 'Submit'.",
+          "active": "payroll"
+        },
+        {
+          "field": "errorReport[0].loanRepaymentAmount",
+          "code": "006",
+          "message": "Loan repayment amount for this employee is in excess of the outstanding loan balance.  Please correct the loan repayment amount to reflect the expected repayment amount and click on 'Submit & Update",
+          "active": "payroll"
+        }
+      ]
+    }
+  },
+  {
+    "ssn": "1234-45-2009",
+    "name": "Ben parker",
+    "dateOfBirth": "12/15/2018",
+    "census": {
+      "personalDetails": {
+        "firstName": "Parker",
+        "lastName": "Peter",
+        "payPeriod": "",
+        "gender": 1,
+        "maritalStatus": 1,
+        "newPlanName": "Plan name",
+        "dateOfBirth": "12/12/1989"
+      },
+      "contactDetails": {
+        "email": "abc.gm.com",
+        "phone": "123456789",
+        "city": "Arizona",
+        "state": "Alaska",
+        "zipCode": "60171",
+        "primaryPhone": "1123456789",
+        "secondaryPhone": "1123456789",
+        "address1": "19A Church ST sutherland",
+        "address2": "19A Church ST sutherland",
+        "dateOfBirth": "12/12/1989",
+        "hireDate": "12/12/2015",
+        "employmentStatus": "Employed",
+        "mostRecentTermDate": "05/12/2020",
+        "mostRecentRehireDate": "01/01/2021"
+      },
+      "employeeClassification": [
+        {
+          "type": "Divsion",
+          "code": "Cosmetics",
+          "name": "DK",
+          "startDate": "12/02/1990",
+          "endDate": "12/02/2020"
+        },
+        {
+          "type": "Location",
+          "code": "NY",
+          "name": "US",
+          "startDate": "12/02/1993",
+          "endDate": "12/02/2023"
+        },
+        {
+          "type": "Divsion",
+          "code": "Cosmetics",
+          "name": "DK",
+          "startDate": "12/02/1996",
+          "endDate": "12/02/2026"
+        }
+      ],
+      "otherInformation": {
+        "pendingQdro": true,
+        "ownership": 20,
+        "familyOfOwener": true,
+        "ssnOfOwner": "",
+        "returnMailIndicator": false,
+        "isOfficer": true,
+        "isHCE": true,
+        "isKeyEmployee": true,
+        "insiderOrRestrictedEmployee": 2
+      },
+      "warnings": [
+        {
+          "field": "email",
+          "code": "006",
+          "message": "Email: not a valid format",
+          "active": "census"
+        },
+        {
+          "field": "primaryPhone",
+          "code": "007",
+          "message": "Phone: not a valid format",
+          "active": "census"
+        }
+      ],
+      "errors": [
+        {
+          "field": "gender",
+          "code": "001",
+          "message": "Gender: select a valid option",
+          "active": "census"
+        },
+        {
+          "field": "employeeClassification[0].type",
+          "code": "002",
+          "message": "employee classification type select a valid option",
+          "active": "census"
+        }
+      ]
+    },
+    "payroll": {
+      "firstName": "Parker",
+      "employeeId": "123456",
+      "employeeStatus": "Terminated",
+      "mostRecentTermDate": "05/12/2020",
+      "payrollFrequency": "Monthly",
+      "highlyCompensated": "Yes",
+      "hireDate": "12/12/2015",
+      "mostRecentHireDate": "12/12/2015",
+      "compensationDetails": [
+        {
+          "planId": "401BS",
+          "description": "Pay period hours",
+          "amount": "670.00",
+          "isError": true,
+          "errorMessage": "Hours received for employee who is separated from service and with termination date more than 40 days prior to current date. To accept this value click on 'Accept Record as is' or remove the hours and click on 'Submit'."
+        }
+      ],
+      "contributionsDetails": [
+        {
+          "isError": true,
+          "planId": "401Bs",
+          "contributionSource": "Employee After Tax",
+          "contributionAmount": "100.00",
+          "calculatedValue": "",
+          "errorMessage": "Hours received for employee who is separated from service and with termination date more than 40 days prior to current date. To accept this value click on 'Accept Record as is' or remove the hours and click on 'Submit'."
+        }
+      ],
+      "loanDetails": [
+        {
+          "planId": "401BS",
+          "loanId": "1",
+          "outstandingLoanAmount": "1000.00",
+          "periodicPaymentAmount": "100.00",
+          "loanStatus": "Active"
+        }
+      ],
+      "errorReport": [
+        {
+          "loanId": "21",
+          "isError": true,
+          "outstandingLoanAmount": "200.00",
+          "errorMessage": "Loan repayment amount for this employee is in excess of the outstanding loan balance.  Please correct the loan repayment amount to reflect the expected repayment amount and click on 'Submit & Update'"
+        }
+      ],
+      "warnings": [
+        {
+          "field": "email",
+          "code": "006",
+          "message": "Email: not a valid format",
+          "active": "payroll"
+        },
+        {
+          "field": "primaryPhone",
+          "code": "007",
+          "message": "Phone: not a valid format",
+          "active": "payroll"
+        }
+      ],
+      "errors": [
+        {
+          "field": "gender",
+          "code": "001",
+          "message": "Gender: select a valid option",
+          "active": "payroll"
+        },
+        {
+          "field": "employeeClassification[0].type",
+          "code": "002",
+          "message": "employee classification type select a valid option",
+          "active": "payroll"
+        }
+      ]
+    }
+  },
+  {
+    "ssn": "1234-45-20010",
+    "name": "Tony Stark",
+    "dateOfBirth": "12/15/2018",
+    "census": {
+      "personalDetails": {
+        "firstName": "Parker",
+        "lastName": "Peter",
+        "payPeriod": "",
+        "gender": 1,
+        "maritalStatus": 1,
+        "newPlanName": "Plan name",
+        "dateOfBirth": "12/12/1989"
+      },
+      "contactDetails": {
+        "email": "abc.gm.com",
+        "phone": "123456789",
+        "city": "Arizona",
+        "state": "Alaska",
+        "zipCode": "60171",
+        "primaryPhone": "1123456789",
+        "secondaryPhone": "1123456789",
+        "address1": "19A Church ST sutherland",
+        "address2": "19A Church ST sutherland",
+        "dateOfBirth": "12/12/1989",
+        "hireDate": "12/12/2015",
+        "employmentStatus": "Employed",
+        "mostRecentTermDate": "05/12/2020",
+        "mostRecentRehireDate": "01/01/2021"
+      },
+      "employeeClassification": [
+        {
+          "type": "Divsion",
+          "code": "Cosmetics",
+          "name": "DK",
+          "startDate": "12/02/1990",
+          "endDate": "12/02/2020"
+        },
+        {
+          "type": "Location",
+          "code": "NY",
+          "name": "US",
+          "startDate": "12/02/1993",
+          "endDate": "12/02/2023"
+        },
+        {
+          "type": "Divsion",
+          "code": "Cosmetics",
+          "name": "DK",
+          "startDate": "12/02/1996",
+          "endDate": "12/02/2026"
+        }
+      ],
+      "otherInformation": {
+        "pendingQdro": true,
+        "ownership": 20,
+        "familyOfOwener": true,
+        "ssnOfOwner": "",
+        "returnMailIndicator": false,
+        "isOfficer": true,
+        "isHCE": true,
+        "isKeyEmployee": true,
+        "insiderOrRestrictedEmployee": 2
+      },
+      "warnings": [
+        {
+          "field": "email",
+          "code": "006",
+          "message": "Email: not a valid format",
+          "active": "census"
+        },
+        {
+          "field": "primaryPhone",
+          "code": "007",
+          "message": "Phone: not a valid format",
+          "active": "census"
+        }
+      ],
+      "errors": [
+        {
+          "field": "gender",
+          "code": "001",
+          "message": "Gender: select a valid option",
+          "active": "census"
+        },
+        {
+          "field": "employeeClassification[0].type",
+          "code": "002",
+          "message": "employee classification type select a valid option",
+          "active": "census"
+        }
+      ]
+    },
+    "payroll": {
+      "firstName": "Parker",
+      "employeeId": "123456",
+      "employeeStatus": "Terminated",
+      "mostRecentTermDate": "05/12/2020",
+      "payrollFrequency": "Monthly",
+      "highlyCompensated": "Yes",
+      "hireDate": "12/12/2015",
+      "mostRecentHireDate": "12/12/2015",
+      "compensationDetails": [
+        {
+          "planId": "401BS",
+          "description": "Pay period hours",
+          "amount": "670.00",
+          "isError": true,
+          "errorMessage": "Hours received for employee who is separated from service and with termination date more than 40 days prior to current date. To accept this value click on 'Accept Record as is' or remove the hours and click on 'Submit'."
+        }
+      ],
+      "contributionsDetails": [
+        {
+          "isError": true,
+          "planId": "401Bs",
+          "contributionSource": "Employee After Tax",
+          "contributionAmount": "100.00",
+          "calculatedValue": "",
+          "errorMessage": "Hours received for employee who is separated from service and with termination date more than 40 days prior to current date. To accept this value click on 'Accept Record as is' or remove the hours and click on 'Submit'."
+        }
+      ],
+      "loanDetails": [
+        {
+          "planId": "401BS",
+          "loanId": "1",
+          "outstandingLoanAmount": "1000.00",
+          "periodicPaymentAmount": "100.00",
+          "loanStatus": "Active"
+        },
+        {
+          "planId": "401BS",
+          "loanId": "2",
+          "outstandingLoanAmount": "0.00",
+          "periodicPaymentAmount": "0.00",
+          "loanStatus": "Closed"
+        }
+      ],
+      "errorReport": [],
+      "warnings": [
+        {
+          "field": "email",
+          "code": "006",
+          "message": "Email: not a valid format",
+          "active": "payroll"
+        },
+        {
+          "field": "primaryPhone",
+          "code": "007",
+          "message": "Phone: not a valid format",
+          "active": "payroll"
+        }
+      ],
+      "errors": [
+        {
+          "field": "gender",
+          "code": "001",
+          "message": "Gender: select a valid option",
+          "active": "payroll"
+        },
+        {
+          "field": "employeeClassification[0].type",
+          "code": "002",
+          "message": "employee classification type select a valid option",
+          "active": "payroll"
+        }
+      ]
+    }
+  }
+]

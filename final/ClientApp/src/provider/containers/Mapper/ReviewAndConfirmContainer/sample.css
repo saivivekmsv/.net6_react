@@ -1,0 +1,27 @@
+.mapper-ractile {
+  width: 17.188rem;
+  /* height: 9.188rem;  */
+  padding-left: 1.313rem;
+  padding-right: 1.313rem;
+  padding-top: 0.713rem;
+  padding-bottom: 0.713rem;
+  border-radius: 10px;
+}
+
+.mapper-ractile-children {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.mapper-raccontainer-grid {
+  display: grid;
+  grid-template-columns: 17.188rem 17.188rem 17.188rem;
+  column-gap: 50px;
+  row-gap: 25px;
+}
+.mapper-raccontainer-grid2 {
+  display: grid;
+  grid-template-columns: 17.188rem 17.188rem 17.188rem;
+  column-gap: 50px;
+  row-gap: 25px;
+}

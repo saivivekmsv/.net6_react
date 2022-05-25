@@ -1,0 +1,27 @@
+.user-popover {
+  font-size: small;
+  .user-item {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .dropdown-item {
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .dropdown-item:hover {
+    color: black;
+  }
+
+  .user-item label {
+    font-weight: normal;
+    margin: 0px;
+  }
+
+  .user-item span {
+    font-weight: bolder;
+  }
+}

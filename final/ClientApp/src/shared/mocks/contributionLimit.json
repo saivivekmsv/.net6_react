@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "planId": "SM891",
+    "ssn": "1234-12-2001",
+    "firstName": "Logan",
+    "lastName": "William",
+    "preTax": "213.00",
+    "roth": "213.00",
+    "afterTax": "213.00",
+    "match": "213.00",
+    "nonElective": "213.00",
+    "totalContribution": "2503.00"
+  },
+  {
+    "id": 2,
+    "planId": "SM892",
+    "ssn": "1234-12-2002",
+    "firstName": "Tony",
+    "lastName": "William",
+    "preTax": "213.00",
+    "roth": "213.00",
+    "afterTax": "213.00",
+    "match": "213.00",
+    "nonElective": "213.00",
+    "totalContribution": "426.00"
+  },
+  {
+    "id": 3,
+    "planId": "SM893",
+    "ssn": "1234-12-2003",
+    "firstName": "Sam",
+    "lastName": "William",
+    "preTax": "213.00",
+    "roth": "213.00",
+    "afterTax": "213.00",
+    "match": "213.00",
+    "nonElective": "213.00",
+    "totalContribution": "426.00"
+  },
+  {
+    "id": 4,
+    "planId": "SM894",
+    "ssn": "1234-12-2003",
+    "firstName": "Sam",
+    "lastName": "Man",
+    "preTax": "230.00",
+    "roth": "400.00",
+    "afterTax": "213.00",
+    "match": "213.00",
+    "nonElective": "213.00",
+    "totalContribution": "200.00"
+  },
+  {
+    "id": 5,
+    "planId": "SM894",
+    "ssn": "1234-12-2003",
+    "firstName": "Sam",
+    "lastName": "Man",
+    "preTax": "230.00",
+    "roth": "400.00",
+    "afterTax": "213.00",
+    "match": "213.00",
+    "nonElective": "213.00",
+    "totalContribution": "200.00"
+  },
+  {
+    "id": 6,
+    "planId": "SM894",
+    "ssn": "1234-12-2003",
+    "firstName": "Sam",
+    "lastName": "Man",
+    "preTax": "230.00",
+    "roth": "400.00",
+    "afterTax": "213.00",
+    "match": "213.00",
+    "nonElective": "213.00",
+    "totalContribution": "200.00"
+  }
+]

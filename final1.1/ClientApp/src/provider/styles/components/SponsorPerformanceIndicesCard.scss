@@ -1,0 +1,92 @@
+.index-card {
+  .icon {
+    font-family: Font Awesome 5 Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4f4f4f;
+  }
+  .percent {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4f4f4f;
+  }
+
+  .label {
+    //font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    //line-height: 21px;
+    color: #4f4f4f;
+  }
+}
+
+.percentage-green {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #27ae60;
+}
+
+.card {
+  background: rgba(190, 190, 190, 0.1) !important;
+  border-radius: 0.313rem !important;
+}
+
+.fee-disclosure {
+  .heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+  }
+
+  .title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+  }
+
+  .value {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #4f4f4f;
+  }
+
+  .year {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    color: #333333;
+  }
+}
+.marg-bot-15{
+  margin-bottom: 15px;
+}

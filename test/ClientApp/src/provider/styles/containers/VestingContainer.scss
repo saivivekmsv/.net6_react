@@ -1,0 +1,31 @@
+.vesting-table {
+  font-size: 0.75rem;
+  margin-top: 10px;
+  th {
+    text-align: center;
+  }
+  td {
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+    height: 36px;
+  }
+  &.editable {
+    td {
+      padding: 0px;
+      vertical-align: middle;
+    }
+    .form-group {
+      margin-bottom: 0px;
+      .form-label {
+        display: none;
+      }
+      .form-control {
+        border: 0px;
+        border-radius: 0px;
+        width: 100%;
+      }
+    }
+  }
+}

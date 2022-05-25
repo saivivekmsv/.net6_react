@@ -1,0 +1,96 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-pro/css/all.css";
+@import "~react-sliding-side-panel/lib/index.css";
+@import "./variables.scss";
+@import "./typography.scss";
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/sidebar.scss";
+@import "./components/sidebarcontent.scss";
+@import "tile.scss";
+
+
+@import "./components/mangepayrollsidebar.scss";
+@import "./components/managepayrollmenu.scss";
+@import "./components/sponsorcard.scss";
+@import "./components/SponsorEmployeeLoanCard.scss";
+@import "./components/SponsorEmployeePlanSummaryCard.scss";
+@import "./components/SponsorEmployeeRetirementReadinessCard.scss";
+@import "./components/SponsorEmployeeSummaryCard.scss";
+@import "./components/SponsorEmployeeTransactionsCard.scss";
+@import "./components/SponsorEmploymentDetailsCardView.scss";
+@import "./components/SponsoringOrgDropdown.scss";
+@import "./components/task.scss";
+
+@import "./components/SponsorPayrollFilterCard.scss";
+@import "./components/SponsorPerformanceIndicesCard.scss";
+@import "./components/SponsorProgressBar.scss";
+@import "./containers/MaintenanceContainer.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "/src/shared/styles/components/HomeWidgetCard.scss";
+@import "/src/shared/styles/components/Header.scss";
+@import "/src/shared/styles/components/LoaderWrapper.scss";
+@import "/src/shared/styles/components/ManageCompanyMenu.scss";
+@import "/src/shared/styles/components/ManageCompanyLayout.scss";
+@import "/src/shared/styles/components/ManageReportLayout.scss";
+@import "/src/shared/styles/components/AddButton.scss";
+@import "/src/shared/styles/components/AddPlans.scss";
+@import "/src/shared/styles/components/ChipButtonGroup.scss";
+@import "/src/shared/styles/components/CsplTable.scss";
+@import "/src/shared/styles/components/HeaderPopover.scss";
+@import "/src/shared/styles/components/IconDropDown.scss";
+@import "/src/shared/styles/components/Dropside.scss";
+@import "/src/shared/styles/components/SearchableList.scss";
+@import "/src/shared/styles/components/FormButtonGroup.scss";
+@import "/src/shared/styles/components/DatePicker.scss";
+@import "/src/shared/styles/components/InnerLayoutHeaderTabs.scss";
+@import "/src/shared/styles/components/Select.scss";
+@import "/src/shared/styles/components/Checkbox.scss";
+@import "/src/shared/styles/components/AddCompanyItemsLayout.scss";
+@import "/src/shared/styles/components/FormControl.scss";
+@import "/src/shared/styles/components/SponsoringOrgDropdown.scss";
+@import "/src/shared/styles/components/FormControlSearch.scss";
+@import "/src/shared/styles/components/FormMultiSelectButtonGroup.scss";
+@import "/src/shared/styles/components/EnrollmentContainer.scss";
+@import "/src/shared/styles/components/ReadOnlyInput.scss";
+@import "/src/shared/styles/components/MultiSelectDropdown.scss";
+@import "/src/shared/styles/components/FormControlDollar.scss";
+@import "/src/shared/styles/components/ReviewWizard.scss";
+@import "/src/shared/styles/components/ReviewStatus.scss";
+@import "/src/shared/styles/components/PlanLeftPanelDetails.scss";
+@import "/src/shared/styles/components/CensusMenuEmployeeDetails.scss";
+@import "/src/shared/styles/components/SliderPanel.scss";
+@import "/src/shared/styles/components/Common.scss";
+@import "/src/shared/styles/components/UploadDocument.scss";
+@import "/src/shared/styles/components/ErrorsPieChart.scss";
+@import "/src/shared/styles/components/VerticalTabs.scss";
+@import "/src/shared/styles/components/PayrollErrorListing.scss";
+@import "/src/shared/styles/components/BoostrapDrodown.scss";
+@import "/src/shared/styles/components/SearchDropdownWithAPI.scss";
+@import "/src/shared/styles/components/EditActionSlider.scss";
+@import "/src/shared/styles/components/GetInitials.scss";
+@import "/src/shared/styles/components/ExcelDropDown.scss";
+@import "/src/shared/styles/components/FormControlIncrement.scss";
+
+@import "./containers/payrollcontainer.scss";
+@import "./containers/PayrollFileStatusContainer.scss";
+@import "./containers/SponsorEmployeeContainer.scss";
+@import "./containers/SponsorInformationContainer.scss";
+@import "./components/sponsordashboardleftpanel.scss";

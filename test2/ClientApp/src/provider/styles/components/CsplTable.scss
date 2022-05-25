@@ -1,0 +1,121 @@
+.cspl-table {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px 5px 0px 0px;
+  .table-row,
+  .table-body,
+  .table-head {
+    width: 100%;
+  }
+  .table-head-cell,
+  .table-cell {
+    flex: 1 0 auto;
+    padding-left: 2rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    color: #000;
+    &:last-child {
+      padding-right: 2rem;
+    }
+  }
+  .table-head {
+    background-color: #e6e6e6;
+    .table-head-cell {
+      min-height: 40px;
+      align-items: center;
+      font-weight: 500;
+      font-size: 0.75rem;
+      &.sortable {
+        position: relative;
+        cursor: pointer;
+        &.asc,
+        &.desc {
+          background-color: #c4c4c4;
+        }
+        &.asc::after,
+        &.desc::after {
+          position: absolute;
+          right: 3px;
+          height: 100%;
+          width: 20px;
+          background-position: center;
+          background-repeat: no-repeat;
+          content: "";
+        }
+        &.asc::after {
+          background-image: url("/assets/icons/svg/sort-icon.svg");
+          transform: rotate(180deg);
+        }
+        &.desc::after {
+          background-image: url("/assets/icons/svg/sort-icon.svg");
+        }
+      }
+    }
+  }
+  .table-body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    .table-row {
+      &:hover {
+        background-color: #e6e6e6;
+      }
+      .table-cell {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        font-size: 14px;
+        align-items: center;
+        .form-group {
+          margin: 0px;
+        }
+      }
+    }
+  }
+  a {
+    &:hover {
+      font-weight: 500;
+    }
+    color: $link;
+  }
+  .null-data {
+    font-size: 0.875rem;
+    color: rgba(51, 51, 51, 0.5);
+  }
+  .custom-checkbox {
+    .custom-control-label {
+      &::before,
+      &::after {
+        top: -0.5rem;
+      }
+      &::after {
+        background-color: #fff;
+        border: 1px solid $input-placeholder-color;
+      }
+    }
+    .custom-control-input:checked ~ .custom-control-label::after {
+      top: -0.5rem;
+      font-family: "Font Awesome 5 Pro";
+      font-weight: 400;
+      content: "\f00c";
+      color: #fff;
+      background-image: none;
+      background-color: $primary;
+      border-color: $primary;
+      line-height: 1;
+      font-size: 14px;
+      height: 16px;
+      width: 16px;
+    }
+    .custom-control-input:disabled ~ .custom-control-label::before {
+      background-color: transparent;
+      border-width: 0px;
+    }
+    .custom-control-input:disabled ~ .custom-control-label::after {
+      border-color: lighten($input-placeholder-color, 30%);
+    }
+    .custom-control-input:checked:disabled ~ .custom-control-label::after {
+      background-color: lighten($primary, 30%);
+      border-color: lighten($primary, 30%);
+    }
+  }
+}

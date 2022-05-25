@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "loanName": "General Purpose"
+    },
+    {
+      "id": 2,
+      "loanName": "COVID-19"
+    },
+    {
+      "id": 3,
+      "loanName": "Hurricane"
+    },
+    {
+      "id": 4,
+      "loanName": "Residentail 00"
+    }
+  ]
+  

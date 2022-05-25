@@ -1,0 +1,322 @@
+.home-widget-card {
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  transition: transform 0.2s;
+
+  height: 287px;
+  width: 300px;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  margin: 20px;
+  border: 1px solid #f2f2f2;
+
+  .img-box {
+    height: 200px;
+    width: 280px;
+    border-radius: 15px;
+    margin-top: 5px;
+  }
+
+  .Company {
+    background: url("/assets/icons/gif/Company.svg") no-repeat center center,
+      linear-gradient(
+        116.36deg,
+        rgba(81, 203, 242, 0.19) 2.11%,
+        rgba(81, 203, 242, 0.1) 2.12%,
+        rgba(81, 203, 242, 0.1) 97.98%
+      );
+
+    &:hover {
+      background: url("/assets/icons/gif/Company.gif") no-repeat center center,
+        linear-gradient(
+          116.36deg,
+          rgba(81, 203, 242, 0.19) 2.11%,
+          rgba(81, 203, 242, 0.1) 2.12%,
+          rgba(81, 203, 242, 0.1) 97.98%
+        );
+      background-size: 200px;
+    }
+  }
+
+  .Plan {
+    background: url("/assets/icons/gif/Plan.svg") no-repeat center center,
+      linear-gradient(
+        116.36deg,
+        rgba(81, 203, 242, 0.19) 2.11%,
+        rgba(81, 203, 242, 0.1) 2.12%,
+        rgba(81, 203, 242, 0.1) 97.98%
+      );
+
+    &:hover {
+      background: url("/assets/icons/gif/Plan.gif") no-repeat center center,
+        linear-gradient(
+          116.36deg,
+          rgba(81, 203, 242, 0.19) 2.11%,
+          rgba(81, 203, 242, 0.1) 2.12%,
+          rgba(81, 203, 242, 0.1) 97.98%
+        );
+      background-size: 200px;
+    }
+  }
+
+  .Employees {
+    background: url("/assets/icons/gif/Employees.svg") no-repeat center center,
+      linear-gradient(
+        116.36deg,
+        rgba(81, 203, 242, 0.19) 2.11%,
+        rgba(81, 203, 242, 0.1) 2.12%,
+        rgba(81, 203, 242, 0.1) 97.98%
+      );
+
+    &:hover {
+      background: url("/assets/icons/gif/Employees.gif") no-repeat center center,
+        linear-gradient(
+          116.36deg,
+          rgba(81, 203, 242, 0.19) 2.11%,
+          rgba(81, 203, 242, 0.1) 2.12%,
+          rgba(81, 203, 242, 0.1) 97.98%
+        );
+      background-size: 200px;
+    }
+  }
+
+  .Eligibility {
+    background: url("/assets/icons/gif/Eligibility.svg") no-repeat center center,
+      linear-gradient(
+        116.36deg,
+        rgba(81, 203, 242, 0.19) 2.11%,
+        rgba(81, 203, 242, 0.1) 2.12%,
+        rgba(81, 203, 242, 0.1) 97.98%
+      );
+
+    &:hover {
+      background: url("/assets/icons/gif/Eligibility.gif") no-repeat center
+          center,
+        linear-gradient(
+          116.36deg,
+          rgba(81, 203, 242, 0.19) 2.11%,
+          rgba(81, 203, 242, 0.1) 2.12%,
+          rgba(81, 203, 242, 0.1) 97.98%
+        );
+      background-size: 200px;
+    }
+  }
+
+  .Enrollment {
+    background: url("/assets/icons/gif/Enrollment.svg") no-repeat center center,
+      linear-gradient(
+        116.36deg,
+        rgba(81, 203, 242, 0.19) 2.11%,
+        rgba(81, 203, 242, 0.1) 2.12%,
+        rgba(81, 203, 242, 0.1) 97.98%
+      );
+
+    &:hover {
+      background: url("/assets/icons/gif/Enrollment.gif") no-repeat center
+          center,
+        linear-gradient(
+          116.36deg,
+          rgba(81, 203, 242, 0.19) 2.11%,
+          rgba(81, 203, 242, 0.1) 2.12%,
+          rgba(81, 203, 242, 0.1) 97.98%
+        );
+      background-size: 200px;
+    }
+  }
+
+  .Payroll {
+    background: url("/assets/icons/gif/Payroll.svg") no-repeat center center,
+      linear-gradient(
+        116.36deg,
+        rgba(81, 203, 242, 0.19) 2.11%,
+        rgba(81, 203, 242, 0.1) 2.12%,
+        rgba(81, 203, 242, 0.1) 97.98%
+      );
+
+    &:hover {
+      background: url("/assets/icons/gif/Payroll.gif") no-repeat center center,
+        linear-gradient(
+          116.36deg,
+          rgba(81, 203, 242, 0.19) 2.11%,
+          rgba(81, 203, 242, 0.1) 2.12%,
+          rgba(81, 203, 242, 0.1) 97.98%
+        );
+      background-size: 200px;
+    }
+  }
+
+  .Reports {
+    background: url("/assets/icons/gif/Reports.svg") no-repeat center center,
+      linear-gradient(
+        116.36deg,
+        rgba(81, 203, 242, 0.19) 2.11%,
+        rgba(81, 203, 242, 0.1) 2.12%,
+        rgba(81, 203, 242, 0.1) 97.98%
+      );
+
+    &:hover {
+      background: url("/assets/icons/gif/Reports.gif") no-repeat center center,
+        linear-gradient(
+          116.36deg,
+          rgba(81, 203, 242, 0.19) 2.11%,
+          rgba(81, 203, 242, 0.1) 2.12%,
+          rgba(81, 203, 242, 0.1) 97.98%
+        );
+      background-size: 200px;
+    }
+  }
+
+  .Mapper {
+    background: url("/assets/icons/gif/Templates.svg") no-repeat center center,
+      linear-gradient(
+        116.36deg,
+        rgba(81, 203, 242, 0.19) 2.11%,
+        rgba(81, 203, 242, 0.1) 2.12%,
+        rgba(81, 203, 242, 0.1) 97.98%
+      );
+
+    &:hover {
+      background: url("/assets/icons/gif/Templates.gif") no-repeat center center,
+        linear-gradient(
+          116.36deg,
+          rgba(81, 203, 242, 0.19) 2.11%,
+          rgba(81, 203, 242, 0.1) 2.12%,
+          rgba(81, 203, 242, 0.1) 97.98%
+        );
+      background-size: 200px;
+    }
+  }
+
+  .Calculators {
+    background: url("/assets/icons/gif/Calculator.svg") no-repeat center center,
+      linear-gradient(
+        116.36deg,
+        rgba(81, 203, 242, 0.19) 2.11%,
+        rgba(81, 203, 242, 0.1) 2.12%,
+        rgba(81, 203, 242, 0.1) 97.98%
+      );
+
+    &:hover {
+      background: url("/assets/icons/gif/Calculator.gif") no-repeat center
+          center,
+        linear-gradient(
+          116.36deg,
+          rgba(81, 203, 242, 0.19) 2.11%,
+          rgba(81, 203, 242, 0.1) 2.12%,
+          rgba(81, 203, 242, 0.1) 97.98%
+        );
+      background-size: 200px;
+    }
+  }
+
+  .Maintenance {
+    background: url("/assets/icons/gif/Maintenance.svg") no-repeat center center,
+      linear-gradient(
+        116.36deg,
+        rgba(81, 203, 242, 0.19) 2.11%,
+        rgba(81, 203, 242, 0.1) 2.12%,
+        rgba(81, 203, 242, 0.1) 97.98%
+      );
+
+    &:hover {
+      background: url("/assets/icons/gif/Maintenance.gif") no-repeat center
+          center,
+        linear-gradient(
+          116.36deg,
+          rgba(81, 203, 242, 0.19) 2.11%,
+          rgba(81, 203, 242, 0.1) 2.12%,
+          rgba(81, 203, 242, 0.1) 97.98%
+        );
+      background-size: 200px;
+    }
+  }
+
+  .OutputFiles {
+    background: url("/assets/icons/gif/Outputfile.svg") no-repeat center center,
+      linear-gradient(
+        116.36deg,
+        rgba(81, 203, 242, 0.19) 2.11%,
+        rgba(81, 203, 242, 0.1) 2.12%,
+        rgba(81, 203, 242, 0.1) 97.98%
+      );
+
+    &:hover {
+      background: url("/assets/icons/gif/Outputfile.svg") no-repeat center
+          center,
+        linear-gradient(
+          116.36deg,
+          rgba(81, 203, 242, 0.19) 2.11%,
+          rgba(81, 203, 242, 0.1) 2.12%,
+          rgba(81, 203, 242, 0.1) 97.98%
+        );
+      background-size: 200px;
+    }
+  }
+
+  .content-container {
+    line-height: 35px;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+
+  &.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  .widget-icon {
+    padding: 10px;
+    max-width: 100px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .widget-content {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: flex-start;
+
+    .widget-label {
+      font-size: 18px;
+      line-height: 27px;
+      padding-bottom: 10px;
+      text-transform: capitalize;
+    }
+
+    .widget-count {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 27px;
+      text-transform: capitalize;
+      font-feature-settings: "tnum" on, "lnum" on;
+    }
+  }
+
+  .spinner-row {
+    font-size: 7px;
+  }
+
+  .spinner-border-sm {
+    height: 10px;
+    width: 10px;
+    border-width: 0.4em;
+  }
+
+  .add-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  @media only screen and (max-width: 1439px) {
+    &:hover:not(.disabled) {
+      transform: scale(1.1);
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "custodianCompanyName": "cust1",
+    "contactDetails": {
+      "mobilePhoneNumber": "9876543211",
+      "workPhoneNumber": null,
+      "email": "cust@123",
+      "website": null
+    },
+    "level": 0,
+    "tenantId": 1
+  },
+  {
+    "id": 3,
+    "custodianCompanyName": "cust2",
+    "contactDetails": {
+      "mobilePhoneNumber": "9876543211",
+      "workPhoneNumber": null,
+      "email": "cust@123",
+      "website": null
+    },
+    "level": 0,
+    "tenantId": 1
+  },
+  {
+    "id": 4,
+    "custodianCompanyName": "cust2",
+    "contactDetails": {
+      "mobilePhoneNumber": "9876543211",
+      "workPhoneNumber": null,
+      "email": "cust@123",
+      "website": null
+    },
+    "level": 0,
+    "tenantId": 1
+  }
+]

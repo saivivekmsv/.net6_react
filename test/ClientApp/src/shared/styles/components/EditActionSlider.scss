@@ -1,0 +1,23 @@
+.edit-action-slider {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  .edit-action {
+    font-size: 26px;
+    border: 0px;
+    padding: 0px 16px;
+    background: #eee;
+    border-radius: 0px 5px 0px 0px;
+    cursor: pointer;
+  }
+  .edit-flow {
+    font-size: 14px;
+    width: 120px;
+    height: 39px;
+    padding: 10px 10px;
+    background: #eee;
+    color: #828282;
+    border-radius: 0px 5px 0px 0px;
+  }
+}

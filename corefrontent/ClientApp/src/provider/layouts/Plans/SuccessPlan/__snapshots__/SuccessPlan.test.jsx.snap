@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<body>
+  <div>
+    <div
+      class="sidebar-container "
+    >
+      <div
+        class="sidebar-placeholder"
+      />
+      <div
+        class="sidebar-overlay"
+      />
+      <div
+        class="sidebar"
+      >
+        <div
+          class="d-flex sidebar-content flex-column justify-content-between py-4 px-3"
+        >
+          <div
+            class="minimized-content col"
+          >
+            <span
+              class="core-icon white"
+            >
+              <img
+                class=""
+                src="/assets/icons/svg/core-white.svg"
+              />
+            </span>
+          </div>
+          <div
+            class="maximized-content col"
+          >
+            <div>
+              <span
+                class="core-icon"
+              >
+                <img
+                  class=""
+                  height="100%"
+                  src="/assets/icons/svg/core.svg"
+                  width="60px"
+                />
+              </span>
+            </div>
+          </div>
+          <div
+            class="maximized-content  h-1 col"
+          >
+            <div
+              class="mt-auto"
+            >
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                  >
+                    Reference & Enquiry
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                  >
+                    Privacy Policy
+                  </a>
+                </li>
+              </ul>
+              <br />
+              <br />
+              <br />
+              <div>
+                © Congruent Solutions Inc.
+              </div>
+               
+              <div>
+                All Rights Reserved
+              </div>
+              <br />
+              <br />
+              <br />
+              <span
+                class="congruent-icon"
+              >
+                <img
+                  class=""
+                  src="/assets/icons/svg/congruent-full.svg"
+                />
+              </span>
+              <br />
+              <br />
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sidebar-app"
+      >
+        <nav
+          class="header-nav navbar navbar-expand-md navbar-light bg-light sticky-top"
+        >
+          <div
+            class="container-fluid"
+          >
+            <div
+              class="header-nav-row align-items-center row"
+            >
+              <div
+                class="col-2"
+              >
+                <span
+                  class="navbar-brand"
+                >
+                  <a
+                    href="/home"
+                  >
+                    <img
+                      class=""
+                      height="31"
+                      src="/assets/icons/svg/core.svg"
+                    />
+                  </a>
+                </span>
+              </div>
+              <div
+                class="col-6"
+              >
+                <div
+                  class="navbar-nav"
+                >
+                  <a
+                    href="/home"
+                  >
+                    <span
+                      class="soft-selected nav-link"
+                    >
+                      Home
+                    </span>
+                  </a>
+                  <a
+                    href="/dashboard"
+                  >
+                    <span
+                      class="nav-link"
+                    >
+                      Dashboard
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-end col-4"
+              >
+                <span
+                  class="icon-container"
+                >
+                  <span
+                    class="icon"
+                  >
+                    <svg>
+                      user-icon.svg
+                    </svg>
+                  </span>
+                </span>
+                <span
+                  class="icon-container"
+                >
+                  <span
+                    class="icon"
+                  >
+                    <svg>
+                      vertical-triple-dots.svg
+                    </svg>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="app-layout container-fluid"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="h-100 overflow-auto col"
+            >
+              <div
+                class="plan-success"
+              >
+                <span
+                  class="check-cirle green ft-72"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-check-circle fa-w-16 "
+                    data-icon="check-circle"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <h1>
+                  Plan Reg 401K MM1
+                </h1>
+                <h4>
+                  (ABC123456)
+                </h4>
+                <p
+                  class="mb-30"
+                >
+                  has been created successfully.
+                </p>
+                <p
+                  class="mb-60"
+                >
+                  This is a 
+                  <b>
+                    Regular
+                  </b>
+                   Plan of 
+                  <b>
+                    401k
+                  </b>
+                   created for 
+                  <b>
+                    Megamagic Inc.
+                  </b>
+                </p>
+                <p
+                  class="text-grey"
+                >
+                  Next steps include:
+                </p>
+                <p
+                  class="text-grey"
+                >
+                  providing required information to set up this plan and the approval.
+                </p>
+                <button
+                  class="btn btn-primary"
+                  type="submit"
+                >
+                  CONTINUE
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

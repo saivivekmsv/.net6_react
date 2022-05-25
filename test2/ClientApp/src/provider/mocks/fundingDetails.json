@@ -1,0 +1,28 @@
+[
+  {
+    "planDetailsForDivisions": [
+      {
+        "rkPlanNumber": "RK101",
+        "planName": "Destiny",
+        "planId": 1,
+        "payDate": "03-02-2021 00:00:00",
+        "totalFunding": 1200
+      }
+    ],
+    "classificationCode": "One",
+    "codeId": 1
+  },
+  {
+    "planDetailsForDivisions": [
+      {
+        "rkPlanNumber": "RK102",
+        "planName": "Destiny",
+        "planId": 2,
+        "payDate": "03-02-2021 00:00:00",
+        "totalFunding": 1200
+      }
+    ],
+    "classificationCode": "Two",
+    "codeId": 2
+  }
+]

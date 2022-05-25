@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmploymentStatusDropdown to match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="dropdside-custom-dropdown"
+    >
+      <div>
+        <div
+          class="searchable-list-input form-group"
+        >
+          <label
+            class="searchable-list-label form-label"
+          >
+            Select an Employment Status or create a new one
+          </label>
+        </div>
+        <div
+          class="searchable-list overflow-y-auto"
+        >
+          <button
+            class="dropdown-item"
+            data-attr="1"
+            type="button"
+          >
+            Active
+          </button>
+          <button
+            class="dropdown-item"
+            data-attr="2"
+            type="button"
+          >
+            Retired
+          </button>
+          <button
+            class="dropdown-item"
+            data-attr="3"
+            type="button"
+          >
+            Terminated
+          </button>
+          <button
+            class="dropdown-item"
+            data-attr="4"
+            type="button"
+          >
+            Leave
+          </button>
+          <button
+            class="dropdown-item"
+            data-attr="5"
+            type="button"
+          >
+            Military Leave
+          </button>
+          <button
+            class="dropdown-item"
+            data-attr="6"
+            type="button"
+          >
+            Deceased
+          </button>
+          <button
+            class="dropdown-item"
+            data-attr="7"
+            type="button"
+          >
+            Disabled
+          </button>
+          <button
+            class="dropdown-item"
+            data-attr="8"
+            type="button"
+          >
+            Others
+          </button>
+        </div>
+      </div>
+      <div
+        class="line-separator"
+      />
+      <div
+        class="form-group"
+      >
+        <label
+          class="form-label"
+        >
+          Add a new status name
+        </label>
+        <input
+          class="form-control"
+          name="newEmploymentStatus"
+          type="text"
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <button
+          class="btn btn-primary"
+          type="button"
+        >
+          Add
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;

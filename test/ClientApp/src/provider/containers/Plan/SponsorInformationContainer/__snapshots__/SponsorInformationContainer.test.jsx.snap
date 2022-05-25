@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SponsorInformationContainer to match snapshot active 1`] = `
+<body>
+  <div>
+    <div
+      class="d-flex flex-column manage-company h-100"
+    >
+      <div
+        class="d-flex layout-header align-items-center"
+      >
+        <div>
+          <nav
+            aria-label="breadcrumb"
+          >
+            <ol
+              class="breadcrumb"
+            >
+              <li
+                class="breadcrumb-item"
+              >
+                <a
+                  href="#"
+                  role="button"
+                >
+                  <a
+                    href="/home"
+                  >
+                    Home
+                  </a>
+                </a>
+              </li>
+              <li
+                class="breadcrumb-item"
+              >
+                <a
+                  href="#"
+                  role="button"
+                >
+                  <a
+                    href="/plans"
+                  >
+                    Manage Plan
+                  </a>
+                </a>
+              </li>
+            </ol>
+          </nav>
+          <h5 />
+        </div>
+        <div
+          class="d-flex align-items-center justify-content-center tab-wrapper"
+        />
+        <div
+          class="ml-auto"
+        >
+          <div />
+        </div>
+      </div>
+      <div
+        class="layout-content h-100 overflow-auto"
+      >
+        <div
+          class="d-flex flex-column"
+        >
+          <div
+            class="plan-heading mb-10"
+          >
+            Sponsor Information
+          </div>
+          <div
+            class="loader-wrapper "
+          >
+            <div
+              class="d-flex flex-column cspl-table undefined"
+            >
+              <div
+                class="d-flex table-head align-items-center undefined"
+              >
+                <div
+                  class="d-flex table-row undefined"
+                >
+                  <div
+                    class="d-flex table-head-cell column-sponsorName sortable "
+                  >
+                    Sponsor Name
+                  </div>
+                  <div
+                    class="d-flex table-head-cell column-sponsorMail sortable "
+                  >
+                    E Mail
+                  </div>
+                  <div
+                    class="d-flex table-head-cell column-sponsorPhone sortable "
+                  >
+                    Phone No.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column table-body undefined"
+              >
+                <div
+                  class="d-flex table-row undefined"
+                >
+                  <div
+                    class="d-flex table-cell column-sponsorName"
+                  >
+                    <a
+                      href="/manage-plan/add-sponsor/edit/undefined"
+                    >
+                      Sponsor 01
+                    </a>
+                  </div>
+                  <div
+                    class="d-flex table-cell column-sponsorMail"
+                  >
+                    sponsor@mep102.com
+                  </div>
+                  <div
+                    class="d-flex table-cell column-sponsorPhone"
+                  >
+                    2092889124
+                  </div>
+                </div>
+                <div
+                  class="d-flex table-row undefined"
+                >
+                  <div
+                    class="d-flex table-cell column-sponsorName"
+                  >
+                    <a
+                      href="/manage-plan/add-sponsor/edit/undefined"
+                    >
+                      Max Haydn
+                    </a>
+                  </div>
+                  <div
+                    class="d-flex table-cell column-sponsorMail"
+                  >
+                    sponsor@mep207.com
+                  </div>
+                  <div
+                    class="d-flex table-cell column-sponsorPhone"
+                  >
+                    2092889207
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

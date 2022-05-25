@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1234,
+    "status": "UnderConstruction",
+    "pendingModules": [
+      "sponsor",
+      "custodian",
+      "advisor",
+      "vesting",
+      "distributions"
+    ]
+  },
+  {
+    "id": 1235,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "id": 123567,
+    "status": "PENDING_ACTIVATE"
+  },
+  {
+    "id": 1235678,
+    "status": "ACTIVATED"
+  },
+  {
+    "id": 12356,
+    "status": "TERMINATED"
+  }
+]

@@ -1,0 +1,37 @@
+{
+    "data": [
+      {
+        "label": "401(k)",
+        "value": "401(k)"
+      },
+      {
+        "label": "401(a)",
+        "value": "401(a)"
+      },
+      {
+        "label": "403(b)",
+        "value": "403(b)"
+      },
+      {
+        "label": "457",
+        "value": "457"
+      },
+      {
+        "label": "Simple 401(k)",
+        "value": "Simple 401(k)"
+      },
+      {
+        "label": "403(k)SEP",
+        "value": "403(k)SEP"
+      },
+      {
+        "label": "IRA",
+        "value": "IRA"
+      },
+      {
+        "label": "Money",
+        "value": "Money"
+      }
+    ]
+  }
+  

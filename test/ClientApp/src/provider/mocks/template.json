@@ -1,0 +1,10 @@
+{
+  "data": [
+    { "id": 1, "value": "Census template" },
+    { "id": 2, "value": "Payroll template" },
+    { "id": 3, "value": "Census and Payroll template" }
+  ],
+  "1": "Census template",
+  "2": "Payroll template",
+  "3": "Census and Payroll template"
+}

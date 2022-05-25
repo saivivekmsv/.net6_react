@@ -1,0 +1,17 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "sponsorName": "Sponsor 01",
+        "sponsorMail": "sponsor@mep102.com",
+        "sponsorPhone": "2092889124"
+      },
+      {
+        "id": 2,
+        "sponsorName": "Max Haydn",
+        "sponsorMail": "sponsor@mep207.com",
+        "sponsorPhone": "2092889207"
+      }
+    ]
+  }
+  

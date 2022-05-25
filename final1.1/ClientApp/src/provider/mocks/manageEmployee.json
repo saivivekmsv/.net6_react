@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "employeeName": "Kevin Thomas",
+      "employeeId": "10010",
+      "employeeStatus": "Active",
+      "ssn": "AAA-GG-XXXX",
+      "companyName": "ACME 123",
+      "plan": "Plan 123"
+    },
+    {
+        "id": 2,
+        "employeeName": "Bill Kevin",
+        "employeeId": "10010",
+        "employeeStatus": "Active",
+        "ssn": "AAA-GG-XXXX",
+        "companyName": "Megamagic",
+        "plan": "Plan 123"
+    },
+    {
+        "id": 3,
+        "employeeName": "Kevin 3",
+        "employeeId": "10010",
+        "employeeStatus": "Active",
+        "ssn": "AAA-GG-XXXX",
+        "companyName": "ACME 123",
+        "plan": "Plan 123"
+    },
+    {
+        "id": 4,
+        "employeeName": "Kevin 4",
+        "employeeId": "10010",
+        "employeeStatus": "Active",
+        "ssn": "AAA-GG-XXXX",
+        "companyName": "ACME 123",
+        "plan": "Plan 123"
+    },
+    {
+        "id": 5,
+        "employeeName": "Kevin 2",
+        "employeeId": "10010",
+        "employeeStatus": "Active",
+        "ssn": "AAA-GG-XXXX",
+        "companyName": "ACME 123",
+        "plan": "Plan 123"
+    }
+  ]
+  

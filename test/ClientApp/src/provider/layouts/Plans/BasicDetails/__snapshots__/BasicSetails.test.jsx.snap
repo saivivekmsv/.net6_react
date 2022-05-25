@@ -1,0 +1,805 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<body>
+  <div>
+    <form
+      class="h-100"
+    >
+      <div
+        class="d-flex flex-column manage-company h-100"
+      >
+        <div
+          class="d-flex layout-header align-items-center"
+        >
+          <div>
+            <nav
+              aria-label="breadcrumb"
+            >
+              <ol
+                class="breadcrumb"
+              >
+                <li
+                  class="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    role="button"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      Home
+                    </a>
+                  </a>
+                </li>
+                <li
+                  class="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    role="button"
+                  >
+                    <a
+                      href="/plans"
+                    >
+                      Manage Plan
+                    </a>
+                  </a>
+                </li>
+              </ol>
+            </nav>
+            <h5 />
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-center tab-wrapper"
+          />
+          <div
+            class="ml-auto"
+          >
+            <div>
+              <a
+                href="/plans"
+              >
+                <button
+                  class="btn btn-secondary"
+                  flow="add,save"
+                  link="/plans"
+                  type="button"
+                >
+                  Cancel
+                </button>
+              </a>
+                 
+              <button
+                class="btn btn-primary"
+                flow="add"
+                type="submit"
+              >
+                Save
+              </button>
+                 
+            </div>
+          </div>
+        </div>
+        <div
+          class="layout-content h-100 overflow-auto"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-2"
+            >
+              <p
+                class="fs-12"
+              >
+                Category: MEP
+              </p>
+            </div>
+            <div
+              class="col-md-2"
+            >
+              <p
+                class="fs-12"
+              >
+                Type: 401(k)
+              </p>
+            </div>
+            <div
+              class="col-md-2"
+            >
+              <p
+                class="fs-12"
+              >
+                Level: Master
+              </p>
+            </div>
+            <div
+              class="col-md-3"
+            >
+              <p
+                class="fs-12"
+              >
+                Sponsoring Org: SO-001
+              </p>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-2"
+            >
+              <div
+                class=" sm form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Plan-Year Start
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                    <option
+                      value="1"
+                    >
+                      Jan
+                    </option>
+                    <option
+                      value="2"
+                    >
+                      Feb
+                    </option>
+                    <option
+                      value="3"
+                    >
+                      Mar
+                    </option>
+                    <option
+                      value="4"
+                    >
+                      Apr
+                    </option>
+                    <option
+                      value="5"
+                    >
+                      May
+                    </option>
+                    <option
+                      value="6"
+                    >
+                      Jun
+                    </option>
+                    <option
+                      value="7"
+                    >
+                      Jul
+                    </option>
+                    <option
+                      value="8"
+                    >
+                      Aug
+                    </option>
+                    <option
+                      value="9"
+                    >
+                      Sep
+                    </option>
+                    <option
+                      value="10"
+                    >
+                      Oct
+                    </option>
+                    <option
+                      value="11"
+                    >
+                      Nov
+                    </option>
+                    <option
+                      value="12"
+                    >
+                      Dec
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Month
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="col-md-2"
+            >
+              <div
+                class=" xs form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                   
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Date
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-2"
+            >
+              <div
+                class=" sm form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Plan-Year End
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                    <option
+                      value="1"
+                    >
+                      Jan
+                    </option>
+                    <option
+                      value="2"
+                    >
+                      Feb
+                    </option>
+                    <option
+                      value="3"
+                    >
+                      Mar
+                    </option>
+                    <option
+                      value="4"
+                    >
+                      Apr
+                    </option>
+                    <option
+                      value="5"
+                    >
+                      May
+                    </option>
+                    <option
+                      value="6"
+                    >
+                      Jun
+                    </option>
+                    <option
+                      value="7"
+                    >
+                      Jul
+                    </option>
+                    <option
+                      value="8"
+                    >
+                      Aug
+                    </option>
+                    <option
+                      value="9"
+                    >
+                      Sep
+                    </option>
+                    <option
+                      value="10"
+                    >
+                      Oct
+                    </option>
+                    <option
+                      value="11"
+                    >
+                      Nov
+                    </option>
+                    <option
+                      value="12"
+                    >
+                      Dec
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Month
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="col-md-2"
+            >
+              <div
+                class=" xs form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                   
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Date
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-4"
+            >
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Plan Effective Date
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-4"
+            >
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Plan Termination Date (optional)
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-4"
+            >
+              <div
+                class=" sm form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Is the first year a short-year?
+                   
+                </label>
+                <div
+                  class="form-control form-button-group "
+                >
+                  <div
+                    class="btn-group"
+                    name="shortYear"
+                    role="group"
+                  >
+                    <button
+                      class="btn btn-primary"
+                      data-attr="Yes"
+                      type="button"
+                    >
+                      Yes
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-attr="No"
+                      type="button"
+                    >
+                      No
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-4"
+            >
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Short-year Start
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-4"
+            >
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Short-year End
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="line-separator"
+          />
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-2"
+            >
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  IRS Plan number
+                   
+                </label>
+                <input
+                  autocomplete="off"
+                  class="w-100 form-control"
+                  name="IRSPlanNumber"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Contract Number
+                   
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  name="contractNumber"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="line-separator"
+          />
+          <p>
+            Plan Administrator
+          </p>
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Name
+                   
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  name="Name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Phone Number
+                   
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  name="phoneNumber"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  E Mail
+                   
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  name="email"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+`;

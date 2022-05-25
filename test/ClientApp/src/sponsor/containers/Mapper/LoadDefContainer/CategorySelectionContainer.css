@@ -1,0 +1,151 @@
+.category-selection-container {
+  /* border: 2px solid black; */
+  padding: 0px;
+  height: 23rem;
+  width: 35rem;
+  margin-left: 4rem;
+  margin-right: 0;
+}
+
+.category-selection-title {
+  /* border: 2px solid blue; */
+  height: 3rem;
+  padding-top: 0.5rem;
+  margin-left: 0;
+  margin-right: auto;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.category-selection-listOfCategory {
+  /* border: 2px solid brown; */
+  width: 30rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-selection-listOfCategory label {
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.category-selection-selectFirstRecord {
+  width: 16px;
+  height: 16px;
+}
+
+.category-selection-selectLastRecord {
+  width: 16px;
+  height: 16px;
+}
+
+.category-selection-selectCustomStrategy {
+  width: 16px;
+  height: 16px;
+}
+
+.category-selection-cardContainer {
+  width: 19rem;
+  height: 27.563rem;
+  padding-top: 0.938rem;
+  /* border: 2px solid darksalmon; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.category-selection-cardSolo {
+  /* border: 2px solid maroon; */
+  width: 16.75rem;
+  height: 4rem;
+
+  border-radius: 0.313rem;
+  margin-bottom: 0.938rem;
+  cursor: context-menu;
+  background: #f7f7f7;
+  display: flex;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  min-width: 0;
+}
+
+.category-selection-titleField {
+  /* border: 2px solid fuchsia; */
+  width: 10rem;
+  height: 30%;
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.category-selection-titleField:hover {
+  overflow: visible;
+}
+
+.category-selection-icon {
+  /* border: 2px solid teal; */
+  width: 3rem;
+  height: 30%;
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  top: 20%;
+  right: 5%;
+  font-size: 12px;
+}
+
+.category-selection-exampleData {
+  /* border: 2px solid deeppink; */
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  width: 5rem;
+  color: #828282;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.category-selection-cardType {
+  /* border: 2px solid darkslateblue; */
+  width: 3rem;
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  color: #828282;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.category-selection-category {
+  /* border: 2px solid springgreen; */
+  width: 3rem;
+  position: absolute;
+  bottom: 20%;
+  right: 5%;
+  color: #333333;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

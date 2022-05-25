@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "code": "W001",
+    "warning": "Gross Compensation exists for the payroll date.",
+    "warningCount": 3,
+    "errorCount": [
+      {
+        "id": 1,
+        "ssn": "xxx-xx-8432",
+        "employeeName": "Jack ferry",
+        "paydate": "11/24/2020"
+      },
+      {
+        "id": 2,
+        "ssn": "xxx-xx-8433",
+        "employeeName": "John Wick",
+        "paydate": "11/24/2020"
+      },
+      {
+        "id": 3,
+        "ssn": "xxx-xx-8434",
+        "employeeName": "Smith",
+        "paydate": "11/24/2020"
+      }
+    ],
+    "accepted": false
+  },
+  {
+    "id": 2,
+    "code": "W002",
+    "warning": "Gross Compensation exists for the payroll date.",
+    "warningCount": 1,
+    "errorCount": [
+      {
+        "id": 1,
+        "ssn": "xxx-xx-8432",
+        "employeeName": "Jack ferry",
+        "paydate": "11/24/2020"
+      }
+    ],
+    "accepted": false
+  },
+  {
+    "id": 3,
+    "code": "W003",
+    "warning": "Hours exist for payroll date.",
+    "warningCount": 1,
+    "errorCount": [
+      {
+        "id": 1,
+        "ssn": "xxx-xx-8432",
+        "employeeName": "Jack ferry",
+        "paydate": "11/24/2020"
+      }
+    ],
+    "accepted": false
+  }
+]

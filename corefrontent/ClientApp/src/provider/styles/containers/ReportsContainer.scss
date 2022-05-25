@@ -1,0 +1,391 @@
+.tableScroll {
+  height: 350px !important;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: auto !important;
+}
+
+.divSpace {
+  padding-bottom: 5px;
+}
+.marg-right-30 {
+  margin-right: 30px;
+}
+.marg-right-6 {
+  margin-right: 6px;
+}
+.marg-left-30 {
+  margin-left: 30px;
+}
+.flex-col {
+  flex-direction: column;
+}
+.header-button {
+  margin-bottom: 20px;
+  min-width: 1210px;
+  max-width: 1210px;
+}
+.pad-top-10 {
+  padding-top: 10px;
+}
+.eligibility-tag {
+  // font-weight: 500;
+  width: 69px;
+  height: 36px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eligible {
+  background: rgba(33, 150, 83, 0.3);
+  color: #3bb54a;
+}
+.not-eligible {
+  background: rgba(235, 87, 87, 0.3);
+  color: #eb5757;
+}
+.apply-button {
+  margin-left: 79px;
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2f80ed;
+  cursor: pointer;
+}
+.manage-column-dropdown {
+  background: white;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 2;
+}
+.manage-columns-button {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #252b42;
+}
+.manage-columns {
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  padding-top: 20px;
+  margin-bottom: 16px;
+  position: relative !important;
+  z-index: 2;
+}
+.marg-right-5 {
+  margin-right: 5px;
+}
+.export {
+  font-size: 12px !important;
+  border: none !important;
+  color: #4f4f4f !important;
+}
+.reports-container {
+  // display: flex;
+  // flex-direction: column;
+  // overflow: auto;
+  // overflow-x: hidden;
+  // padding: 0rem 1rem;
+  // .input-range__slider {
+  //   background: #ffffff !important;
+  //   border: 3px solid #3f51b5 !important;
+  // }
+  // .input-range__label {
+  //   font-family: "Poppins" !important;
+  //   font-size: 12px !important;
+  // }
+  .heading {
+    padding: 1rem 0rem;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .tab-inner-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .lebel-text {
+    font-size: 0.75rem;
+    width: 240px;
+    margin-left: -0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .column-header {
+    margin-right: 60px;
+    font-size: 12px;
+    border: none !important;
+  }
+
+  .report-level-tab {
+    width: auto;
+    background: #fff;
+    border-bottom: 1px solid $input-placeholder-color;
+    margin-top: 20px;
+    .nav-item.nav-link {
+      border: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 0rem;
+      margin-right: 2rem;
+      color: #333 !important;
+      font-size: 0.875rem;
+      width: fit-content;
+      &:first-child {
+        margin-left: 0px;
+      }
+    }
+    .nav-item.nav-link.active {
+      margin-bottom: 0px;
+      font-weight: 500;
+      border-bottom: 3px solid $primary;
+      color: $primary !important;
+    }
+  }
+  .filter-icon {
+    position: absolute;
+    z-index: 9;
+    top: 42px;
+    right: 10px;
+  }
+  .total-record {
+    font-size: 14px;
+    color: #acacac;
+    font-weight: 500;
+  }
+  .ps-rel {
+    position: relative;
+  }
+  .eligibility-report-table {
+    .cspl-table {
+      .column-planId {
+        width: 6%;
+      }
+      .column-ssn {
+        width: 10%;
+      }
+      .column-firstName {
+        width: 8%;
+      }
+      .column-lastName {
+        width: 8%;
+      }
+      .column-runDate {
+        width: 8%;
+      }
+      .column-sourceName {
+        width: 10%;
+      }
+      .column-eligibilityStatus {
+        width: 11%;
+      }
+      .column-eligibilityDate {
+        width: 10%;
+      }
+      .column-entryDate {
+        width: 8%;
+      }
+      .column-anchorFlag {
+        width: 9%;
+      }
+      .column-reason {
+        width: 14%;
+      }
+    }
+  }
+  .forecast-report-table {
+    .cspl-table .table-body .table-row .table-cell {
+      padding-top: 1.5rem;
+    }
+    .cspl-table {
+      .column-planId {
+        width: 10%;
+      }
+      .column-ssn {
+        width: 10%;
+      }
+      .column-firstName {
+        width: 15%;
+      }
+      .column-lastName {
+        width: 15%;
+      }
+      .column-sourceName {
+        width: 10%;
+      }
+      .column-requirementMetDate {
+        width: 15%;
+      }
+      .column-forecastedEntryDate {
+        width: 15%;
+      }
+    }
+  }
+
+  .deleted-report-table {
+    .cspl-table .table-body .table-row .table-cell {
+      padding-top: 1.5rem;
+    }
+    .cspl-table {
+      .column-companyName {
+        width: 15%;
+      }
+      .column-ssn {
+        width: 15%;
+      }
+      .column-firstName {
+        width: 15%;
+      }
+      .column-lastName {
+        width: 15%;
+      }
+      .column-deletedBy {
+        width: 20%;
+      }
+      .column-deletedDateAndTime {
+        width: 20%;
+      }
+    }
+  }
+  .g-report-table {
+    .cspl-table .table-body .table-row .table-cell {
+      padding-top: 1.5rem;
+    }
+    .cspl-table {
+      .column-planId {
+        width: 10%;
+      }
+      .column-ssn {
+        width: 15%;
+      }
+      .column-firstName {
+        width: 10%;
+      }
+      .column-lastName {
+        width: 10%;
+      }
+      .column-age {
+        width: 10%;
+      }
+      .column-preTax {
+        width: 15%;
+      }
+      .column-roth {
+        width: 15%;
+      }
+      .column-totalContribution {
+        width: 15%;
+      }
+    }
+  }
+  .c-report-table {
+    .cspl-table .table-body .table-row .table-cell {
+      padding-top: 1.5rem;
+    }
+    .cspl-table {
+      .column-planId {
+        width: 7%;
+      }
+      .column-ssn {
+        width: 10%;
+      }
+      .column-firstName {
+        width: 10%;
+      }
+      .column-lastName {
+        width: 10%;
+      }
+      .column-preTax {
+        width: 10%;
+      }
+      .column-roth {
+        width: 10%;
+      }
+      .column-afterTax {
+        width: 10%;
+      }
+      .column-match {
+        width: 10%;
+      }
+      .column-nonElective {
+        width: 10%;
+      }
+      .column-totalContribution {
+        width: 13%;
+      }
+    }
+  }
+  .employement-report-table {
+    .cspl-table .table-body .table-row .table-cell {
+      padding-top: 1.5rem;
+    }
+    .cspl-table {
+      .column-companyName {
+        width: 10%;
+      }
+      .column-planId {
+        width: 10%;
+      }
+      .column-ssn {
+        width: 15%;
+      }
+      .column-firstName {
+        width: 10%;
+      }
+      .column-lastName {
+        width: 10%;
+      }
+      .column-priorStatus {
+        width: 10%;
+      }
+      .column-updatedStatus {
+        width: 15%;
+      }
+      .column-date {
+        width: 15%;
+      }
+    }
+  }
+}
+.min-width-200 {
+  min-width: 100px !important;
+}
+.text-ellipsis {
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+}
+.table-width {
+  max-width: 1220px !important;
+}
+@media only screen and (min-width: 1320px) and (max-width: 1560px) {
+  .table-width {
+    max-width: 1000px !important;
+  }
+}
+@media only screen and (min-width: 1165px) and (max-width: 1320px) {
+  //Put your CSS here for 200px to 767px width devices (cover all width between 200px to 767px //
+  .table-width {
+    max-width: 800px !important;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1165px) {
+  //Put your CSS here for 200px to 767px width devices (cover all width between 200px to 767px //
+  .table-width {
+    max-width: 600px !important;
+  }
+}
+.grid-overflow {
+  overflow-x: auto !important;
+}
+.grid-overflow-hidden {
+  overflow-x: hidden !important;
+}

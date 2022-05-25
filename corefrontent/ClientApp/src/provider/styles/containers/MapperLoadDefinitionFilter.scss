@@ -1,0 +1,654 @@
+.optionBtn {
+  display: none;
+}
+
+.optionsDiv {
+  margin-top: 0.625rem;
+  width: 18.9rem;
+  flex-flow: row wrap;
+  display: flex;
+  height: 36px;
+  justify-content: space-between;
+}
+
+.optionsDiv input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0px;
+}
+
+.optionsDiv label:hover {
+  border: 1px solid #2f80ed;
+  cursor: pointer;
+}
+
+.optionsDiv input[type="radio"]:focus + label {
+  background: #dedfe9;
+}
+
+.optionLabel {
+  height: 25px;
+  padding: 15px 20px 15px 20px;
+  border: 1px;
+  border-style: solid;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+
+  justify-content: center !important;
+  display: flex !important;
+  align-items: center !important;
+  color: gray;
+  /* margin-right:12px; */
+}
+
+.checkedit {
+  background: #dedfe9;
+  border: 1px solid #2f80ed;
+}
+
+.optionsDiv input[type="radio"]:checked + label {
+  background: rgba(0, 108, 243, 0.2);
+  mix-blend-mode: normal;
+  border: 1px solid #2f80ed;
+  color: black;
+}
+
+.FiltercardCss {
+  background: #f7f7f7;
+  display: flex;
+  height: 4.375rem;
+  width: 18.125rem;
+  border-radius: 0.313rem;
+  margin-bottom: 0.938rem;
+  cursor: context-menu;
+}
+.ellipsis {
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  top: 25%;
+  width: 8%;
+  /* border: 2px solid #21ce5b; */
+  justify-content: space-evenly;
+}
+
+.fieldTitle {
+  /* border: 2px solid blue !important; */
+  width: 50%;
+  height: 40%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 10%;
+  top: 15%;
+  min-width: 0;
+}
+
+.fieldText {
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 0;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-right: 7px;
+}
+
+.columnTitle {
+  /* border: 2px solid olive; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30%;
+  height: 40%;
+  right: 5%;
+  top: 15%;
+  /* top: 10%; */
+  min-width: 0;
+}
+
+.columnText {
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: 0;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sampleData {
+  /* border: 2px solid darkorange !important; */
+  width: 50%;
+  height: 40%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 10%;
+  top: 45%;
+  min-width: 0;
+}
+
+.sampleDataText {
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: 0;
+  text-align: left;
+  color: #bdbdbd;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sampleValueText {
+  color: #828282;
+  font-weight: 500;
+}
+
+.dataType {
+  /* border: 2px solid goldenrod; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30%;
+  height: 40%;
+  right: 5%;
+  top: 45%;
+  min-width: 0;
+}
+
+.dataTypeText {
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  text-align: right;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.fieldText:hover {
+  overflow: visible;
+}
+
+.FilterSourceContainer {
+  // border: 0.125rem solid black !important;
+  width: 19.125rem;
+  margin-top: 0 !important;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.FilterSourceSearchButtonContainer {
+  //   border: 0.125rem solid blue !important;
+  width: 19.125rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FilterSourceText {
+  /* Source */
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 0rem;
+  text-align: left;
+  height: 1rem;
+  width: 3.5rem;
+  left: 0rem;
+  top: 0.031;
+  color: #333333;
+  position: static;
+}
+
+.FilterSourceTextContainer {
+  height: 1rem;
+}
+
+.FiltersearchIcon {
+  height: 1rem;
+}
+
+.FiltersearchIconContainer {
+  height: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FilterFileNameText {
+  /* FP-Payroll.xls */
+  position: static;
+  width: 70%;
+  height: 1rem;
+  left: 0rem;
+  top: 0rem;
+  overflow: hidden;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  /* identical to box height, or 114% */
+  color: #000000;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 0.625rem;
+}
+
+.FilterNumberOfFieldsText {
+  /* 18 Fields available in source file */
+  position: static;
+  width: 70%;
+  height: 1rem;
+  left: 0rem;
+  top: 1.313rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #bdbdbd;
+  /* Inside Auto Layout */
+  order: 1;
+  flex-grow: 0;
+  margin-top: 0.313rem;
+  // border: 2px solid firebrick;
+}
+
+.MapperNumberOfFieldsText {
+  /* 18 Fields available in source file */
+  position: static;
+  height: 1rem;
+  left: 0rem;
+  top: 1.313rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #bdbdbd;
+  /* Inside Auto Layout */
+  order: 1;
+  flex-grow: 0;
+  margin-top: 0.313rem;
+  // border: 2px solid firebrick;
+}
+// ---------------------Search Bar-------------------
+
+.FilterSearchBarContainer {
+  height: 2.188rem;
+  width: 19.125rem;
+  border-radius: 0.313rem;
+  //   border:0.125rem solid red;
+  // overflow:hidden;
+  margin-top: 0.625rem;
+}
+
+.Filtersource-search-box {
+  height: 2.188rem;
+  width: 18.875rem !important;
+  border-radius: 0.3rem !important;
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  text-align: left;
+  border: 0.063rem solid #bdbdbd !important;
+}
+
+.Map-and-transform-search-box {
+  height: 2.188rem;
+  border-radius: 0.3rem !important;
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  text-align: left;
+  border: 0.063rem solid #bdbdbd !important;
+}
+
+.Filtermapper-source-search-text {
+  border-radius: 0.3rem;
+  position: relative;
+  width: 19.125rem !important;
+  flex-grow: 1;
+  // border:0.125rem solid green;
+  input {
+    border-radius: 0.3rem;
+  }
+  .sm {
+    width: 19.125rem;
+    height: 2.188rem;
+    padding-left: 2.063rem;
+    font-size: 0.875rem;
+    border-radius: 0.3rem;
+    line-height: 1rem;
+    position: absolute;
+  }
+  .plan-group-searchbar {
+    width: 19.125rem;
+    height: 2.188rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    border-radius: 0.3rem;
+  }
+
+  .source-close-button-wrapper {
+    position: absolute;
+    margin-left: 17.25rem;
+    top: 0rem;
+    display: none;
+    align-items: center;
+    height: 100%;
+    .source-close-button {
+      border: 0;
+      background-color: transparent;
+      svg {
+        font-size: 1rem;
+      }
+    }
+    &.active {
+      display: flex;
+    }
+  }
+  .source-close-button-pg {
+    display: none;
+    align-items: center;
+    position: absolute;
+
+    .source-icon-size {
+      border: 0;
+      background-color: transparent;
+      svg {
+        font-size: 1rem;
+      }
+    }
+    &.active {
+      display: flex;
+    }
+  }
+}
+
+.small-input-grp {
+  > .mapper-source-search-text:first-child {
+    display: flex;
+    width: 1%;
+    input {
+      border-radius: 0.3rem;
+      border-right-color: #fff !important;
+    }
+  }
+  .source-close-button-wrapper {
+    right: 0rem;
+    .source-close-button svg {
+      font-size: 1rem;
+    }
+  }
+  .plan-search-button {
+    background-color: #fff;
+    border-left-color: #fff !important;
+  }
+}
+
+.search-bar {
+  .input-group-text {
+    background: #fff;
+  }
+}
+
+.fieldContainer {
+  height: 19.688rem;
+  width: 19.125rem;
+  list-style: none;
+  padding-left: 0;
+  // border:2px solid pink;
+  justify-content: center;
+  overflow-y: scroll;
+  margin-top: 0.625rem;
+  flex-grow: 1;
+}
+
+//Configure Transformations
+.function-heading {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #333333;
+}
+
+.trash-icon {
+  align-self: center;
+  margin-left: 0.7rem;
+}
+.result-function {
+  display: flex;
+  flex-direction: column;
+}
+.result-heading {
+  color: #828282;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+}
+.result-value {
+  margin-top: 1rem;
+  align-self: center;
+}
+//-----Toggle switch-------
+.Editor-heading {
+  font-size: 00.875rem;
+  color: #333333;
+}
+
+.FilterCardRendering {
+  width: 100%;
+  height: 100%;
+  padding-top: 0.5rem;
+  // border: 2px solid saddlebrown;
+  overflow-y: scroll;
+}
+
+.FilterUnavailable {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 300;
+  color: #bdbdbd;
+}
+
+.FilterConditionContainer {
+  margin-inline-start: 5%;
+  height: 30rem;
+  width: 42rem;
+  padding-right: 0 !important;
+  // border: 2px solid green;
+}
+
+.FilterList {
+  width: 12rem;
+  height: 28rem;
+  padding-right: 0 !important;
+  // border: 2px solid red;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #e5e5e5;
+}
+
+.FCondition {
+  width: 70%;
+  height: 30rem;
+  // border: 2px solid darkorchid;
+  position: relative;
+}
+
+.Foptions {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #7c7c7c;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.FcondText {
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7c7c7c;
+  padding-bottom: 0.5rem;
+}
+
+.Flabel {
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.Ftype {
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #828282;
+}
+
+.OptionContainer {
+  width: 30rem;
+  height: 28rem;
+  // border: 2px solid blue;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.OptTitle {
+  width: 100%;
+  border-bottom: 2px solid #f2f2f2;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #7c7c7c;
+  padding: 1rem 0 1rem 0;
+}
+
+.ConTitle {
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7c7c7c;
+  padding-top: 10px;
+}
+
+.FTitle {
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+  padding-left: 1rem;
+}
+
+.FSelectdiv {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #333333;
+  padding-bottom: 5px;
+  align-self: flex-end;
+  margin-left: 5.5%;
+}
+
+.FTargetCard-normal {
+  width: 12.5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  // border: 2px solid green;
+  border: 0px;
+  border-radius: 0;
+  margin-left: -1px;
+  margin-top: -1px;
+  background-color: #f2f2f2;
+}
+.FTargetCard-selected {
+  width: 12.5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  // border: 2px solid green;
+  border-radius: 0;
+  margin-left: -1px;
+  margin-top: -1px;
+  background-color: white;
+}
+.FilterConditionTitleText {
+  // border: 2px solid brown;
+  padding-bottom: 10px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #333333;
+}
+
+.select-placeholder-text {
+  color: black;
+}

@@ -1,0 +1,579 @@
+{
+  "id": 579,
+  "name": "HOTSTAR",
+  "employerType": 1,
+  "sponsoringOrganizationId": 426,
+  "address1": null,
+  "address2": null,
+  "country": "USA",
+  "state": null,
+  "city": null,
+  "postalCode": null,
+  "taxEIN": "ABC123",
+  "email": null,
+  "phoneNumber": null,
+  "website": null,
+  "businessType": 0,
+  "taxedAs": 0,
+  "stateOfIncorporation": null,
+  "companyStartDate": null,
+  "fisicalYearMonth": 0,
+  "fisicalYearDay": 0,
+  "modeOfHours": 1,
+  "modeOfCompensation": 1,
+  "isPayrollCalenderRequire": false,
+  "isFileGenerationRequire": false,
+  "modeOfFunding": 2,
+  "isNonTrackedLoanApplicable": false,
+  "permanentRecordKeeperCompanyId": null,
+  "currentRecordKeeperCompanyId": null,
+  "employmentStatus": [
+    {
+      "id": 461,
+      "employmentStatus": 1,
+      "employmentStatusCode": "P",
+      "isDefault": false
+    },
+    {
+      "id": 462,
+      "employmentStatus": 3,
+      "employmentStatusCode": "T",
+      "isDefault": false
+    },
+    {
+      "id": 463,
+      "employmentStatus": 2,
+      "employmentStatusCode": "R",
+      "isDefault": false
+    },
+    {
+      "id": 464,
+      "employmentStatus": 5,
+      "employmentStatusCode": "L",
+      "isDefault": false
+    },
+    {
+      "id": 465,
+      "employmentStatus": 7,
+      "employmentStatusCode": "D",
+      "isDefault": false
+    }
+  ],
+  "payrollFrequencies": [
+    {
+      "id": 5,
+      "frequencyName": "string",
+      "frequencyType": 1,
+      "startDay": 0,
+      "firstBeginDay": 0,
+      "secondBeginDay": 0,
+      "startDate": 0,
+      "startMonth": 0,
+      "worksOnSaturday": true,
+      "worksOnSunday": true
+    },
+    {
+      "id": 26,
+      "frequencyName": "string",
+      "frequencyType": 2,
+      "startDay": 0,
+      "firstBeginDay": 0,
+      "secondBeginDay": 0,
+      "startDate": 0,
+      "startMonth": 0,
+      "worksOnSaturday": true,
+      "worksOnSunday": true
+    },
+    {
+      "id": 36,
+      "frequencyName": "string",
+      "frequencyType": 3,
+      "startDay": 0,
+      "firstBeginDay": 0,
+      "secondBeginDay": 0,
+      "startDate": 0,
+      "startMonth": 0,
+      "worksOnSaturday": true,
+      "worksOnSunday": true
+    },
+    {
+      "id": 46,
+      "frequencyName": "string",
+      "frequencyType": 4,
+      "startDay": 0,
+      "firstBeginDay": 0,
+      "secondBeginDay": 0,
+      "startDate": 0,
+      "startMonth": 0,
+      "worksOnSaturday": true,
+      "worksOnSunday": true
+    },
+    {
+      "id": 56,
+      "frequencyName": "string",
+      "frequencyType": 5,
+      "startDay": 0,
+      "firstBeginDay": 0,
+      "secondBeginDay": 0,
+      "startDate": 0,
+      "startMonth": 0,
+      "worksOnSaturday": true,
+      "worksOnSunday": true
+    },
+    {
+      "id": 66,
+      "frequencyName": "string",
+      "frequencyType": 6,
+      "startDay": 0,
+      "firstBeginDay": 0,
+      "secondBeginDay": 0,
+      "startDate": 0,
+      "startMonth": 0,
+      "worksOnSaturday": true,
+      "worksOnSunday": true
+    },
+    {
+      "id": 76,
+      "frequencyName": "string",
+      "frequencyType": 7,
+      "startDay": 0,
+      "firstBeginDay": 0,
+      "secondBeginDay": 0,
+      "startDate": 0,
+      "startMonth": 0,
+      "worksOnSaturday": true,
+      "worksOnSunday": true
+    },
+    {
+      "id": 86,
+      "frequencyName": "string",
+      "frequencyType": 8,
+      "startDay": 0,
+      "firstBeginDay": 0,
+      "secondBeginDay": 0,
+      "startDate": 0,
+      "startMonth": 0,
+      "worksOnSaturday": true,
+      "worksOnSunday": true
+    }
+  ],
+  "classifications": [
+    {
+      "id": 1,
+      "employeeClassificationType": 1,
+      "clientEligibilityClassificationRequired": true,
+      "classificationTypeRequired": true,
+      "multipleSelectionsAllowed": true,
+      "employeeClassificationCodes": [
+        {
+          "id": 1,
+          "code": "DEL",
+          "value": "DELHI",
+          "effectiveStartDate": "2020-11-05T12:06:10.350Z",
+          "effectiveEndDate": "2020-11-05T12:06:10.350Z",
+          "attributes": [
+            {
+              "id": 1,
+              "name": "Address",
+              "value": "Guindy"
+            },
+            {
+              "id": 2,
+              "name": "Area",
+              "value": "Kolathur"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "code": "MUB",
+          "value": "Mumbai",
+          "effectiveStartDate": "2020-11-05T12:06:10.350Z",
+          "effectiveEndDate": "2020-11-05T12:06:10.350Z",
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "employeeClassificationType": 2,
+      "clientEligibilityClassificationRequired": true,
+      "classificationTypeRequired": true,
+      "multipleSelectionsAllowed": true,
+      "employeeClassificationCodes": [
+        {
+          "id": 1,
+          "code": "DEL",
+          "value": "DELHI",
+          "effectiveStartDate": "2020-11-05T12:06:10.350Z",
+          "effectiveEndDate": "2020-11-05T12:06:10.350Z",
+          "attributes": [
+            {
+              "id": 1,
+              "name": "Address",
+              "value": "Guindy"
+            },
+            {
+              "id": 2,
+              "name": "Area",
+              "value": "Kolathur"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "employeeClassificationType": 3,
+      "clientEligibilityClassificationRequired": true,
+      "classificationTypeRequired": true,
+      "multipleSelectionsAllowed": true,
+      "employeeClassificationCodes": [
+        {
+          "id": 1,
+          "code": "DEL",
+          "value": "DELHI",
+          "effectiveStartDate": "2020-11-05T12:06:10.350Z",
+          "effectiveEndDate": "2020-11-05T12:06:10.350Z",
+          "attributes": [
+            {
+              "id": 1,
+              "name": "Address",
+              "value": "Guindy"
+            },
+            {
+              "id": 2,
+              "name": "Area",
+              "value": "Kolathur"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "code": "KOK",
+          "value": "KOLKATTA",
+          "effectiveStartDate": "2020-11-05T12:06:10.350Z",
+          "effectiveEndDate": "2020-11-05T12:06:10.350Z",
+          "attributes": [
+            {
+              "id": 1,
+              "name": "Area",
+              "value": "Medical college"
+            },
+            {
+              "id": 2,
+              "name": "Hotel",
+              "value": "Saravana Bhavan"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "payrollCalendars": [
+    {
+      "id": 5,
+      "frequencyName": "string",
+      "frequencyType": 3,
+      "nextPayDate": "0001-01-01T00:00:00",
+      "isScheduleExtensionApplicable": true,
+      "holiday": 0,
+      "saturday": 0,
+      "sunday": 0,
+      "effectivePayDateCount": 0,
+      "payPeriods": [
+        {
+          "id": 1,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 2,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 3,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 3,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 4,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 5,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 6,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 7,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 8,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 9,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 10,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 11,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 12,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 13,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 14,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        },
+        {
+          "id": 15,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        }
+      ],
+      "scheduleBeginDate": "2020-10-24T12:10:45.741",
+      "scheduleEndDate": "2020-10-24T12:10:45.741"
+    },
+    {
+      "id": 6,
+      "frequencyName": "string",
+      "frequencyType": 4,
+      "nextPayDate": "0001-01-01T00:00:00",
+      "isScheduleExtensionApplicable": true,
+      "holiday": 0,
+      "saturday": 0,
+      "sunday": 0,
+      "effectivePayDateCount": 0,
+      "payPeriods": [
+        {
+          "id": 1,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        }
+      ],
+      "scheduleBeginDate": "2020-10-24T12:10:45.741",
+      "scheduleEndDate": "2020-10-24T12:10:45.741"
+    },
+    {
+      "id": 7,
+      "frequencyName": "string",
+      "frequencyType": 1,
+      "nextPayDate": "0001-01-01T00:00:00",
+      "isScheduleExtensionApplicable": true,
+      "holiday": 0,
+      "saturday": 0,
+      "sunday": 0,
+      "effectivePayDateCount": 0,
+      "payPeriods": [
+        {
+          "id": 1,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        }
+      ],
+      "scheduleBeginDate": "2020-10-24T12:10:45.741",
+      "scheduleEndDate": "2020-10-24T12:10:45.741"
+    },
+    {
+      "id": 8,
+      "frequencyName": "string",
+      "frequencyType": 2,
+      "nextPayDate": "0001-01-01T00:00:00",
+      "isScheduleExtensionApplicable": true,
+      "holiday": 0,
+      "saturday": 0,
+      "sunday": 0,
+      "effectivePayDateCount": 0,
+      "payPeriods": [
+        {
+          "id": 1,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        }
+      ],
+      "scheduleBeginDate": "2020-10-24T12:10:45.741",
+      "scheduleEndDate": "2020-10-24T12:10:45.741"
+    },
+    {
+      "id": 9,
+      "frequencyName": "string",
+      "frequencyType": 3,
+      "nextPayDate": "0001-01-01T00:00:00",
+      "isScheduleExtensionApplicable": true,
+      "holiday": 0,
+      "saturday": 0,
+      "sunday": 0,
+      "effectivePayDateCount": 0,
+      "payPeriods": [
+        {
+          "id": 1,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        }
+      ],
+      "scheduleBeginDate": "2020-10-24T12:10:45.741",
+      "scheduleEndDate": "2020-10-24T12:10:45.741"
+    },
+    {
+      "id": 106,
+      "frequencyName": "string",
+      "frequencyType": 4,
+      "nextPayDate": "0001-01-01T00:00:00",
+      "isScheduleExtensionApplicable": true,
+      "holiday": 0,
+      "saturday": 0,
+      "sunday": 0,
+      "effectivePayDateCount": 0,
+      "payPeriods": [
+        {
+          "id": 1,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        }
+      ],
+      "scheduleBeginDate": "2020-10-24T12:10:45.741",
+      "scheduleEndDate": "2020-10-24T12:10:45.741"
+    },
+    {
+      "id": 16,
+      "frequencyName": "string",
+      "frequencyType": 5,
+      "nextPayDate": "0001-01-01T00:00:00",
+      "isScheduleExtensionApplicable": true,
+      "holiday": 0,
+      "saturday": 0,
+      "sunday": 0,
+      "effectivePayDateCount": 0,
+      "payPeriods": [
+        {
+          "id": 1,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        }
+      ],
+      "scheduleBeginDate": "2020-10-24T12:10:45.741",
+      "scheduleEndDate": "2020-10-24T12:10:45.741"
+    },
+    {
+      "id": 26,
+      "frequencyName": "string",
+      "frequencyType": 6,
+      "nextPayDate": "0001-01-01T00:00:00",
+      "isScheduleExtensionApplicable": true,
+      "holiday": 0,
+      "saturday": 0,
+      "sunday": 0,
+      "effectivePayDateCount": 0,
+      "payPeriods": [
+        {
+          "id": 1,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        }
+      ],
+      "scheduleBeginDate": "2020-10-24T12:10:45.741",
+      "scheduleEndDate": "2020-10-24T12:10:45.741"
+    },
+    {
+      "id": 36,
+      "frequencyName": "string",
+      "frequencyType": 7,
+      "nextPayDate": "0001-01-01T00:00:00",
+      "isScheduleExtensionApplicable": true,
+      "holiday": 0,
+      "saturday": 0,
+      "sunday": 0,
+      "effectivePayDateCount": 0,
+      "payPeriods": [
+        {
+          "id": 1,
+          "payDate": "2020-10-24T12:10:45.741",
+          "beginDate": "2020-10-24T00:00:00",
+          "endDate": "2020-10-24T00:00:00",
+          "payPeriodStatus": 0
+        }
+      ],
+      "scheduleBeginDate": "2020-10-24T12:10:45.741",
+      "scheduleEndDate": "2020-10-24T12:10:45.741"
+    }
+  ],
+  "tenantId": 7
+}

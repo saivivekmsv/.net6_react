@@ -1,0 +1,1475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SourcesAdditonalAllocationRulesContainer - sprint 4 Employer form to match employer form & ADI applicable Discretionary 1`] = `
+<body>
+  <div>
+    <form
+      class="h-100"
+    >
+      <div
+        class="d-flex flex-column manage-company h-100"
+      >
+        <div
+          class="d-flex layout-header align-items-center"
+        >
+          <div>
+            <nav
+              aria-label="breadcrumb"
+            >
+              <ol
+                class="breadcrumb"
+              >
+                <li
+                  class="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    role="button"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      Home
+                    </a>
+                  </a>
+                </li>
+                <li
+                  class="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    role="button"
+                  >
+                    <a
+                      href="/plans"
+                    >
+                      Manage Plan
+                    </a>
+                  </a>
+                </li>
+              </ol>
+            </nav>
+            <h5 />
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-center tab-wrapper"
+          />
+          <div
+            class="ml-auto"
+          >
+            <div>
+              <button
+                class="btn btn-secondary"
+                flow="add,save"
+                type="button"
+              >
+                Cancel
+              </button>
+                 
+              <button
+                class="btn btn-primary"
+                flow="add,save"
+                type="submit"
+              >
+                Save
+              </button>
+                 
+            </div>
+          </div>
+        </div>
+        <div
+          class="layout-content h-100 overflow-auto"
+        >
+          <div
+            class="plan-heading"
+          >
+            Allocation Rules
+          </div>
+          <div>
+            <div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Formula Description
+                   
+                </label>
+                <textarea
+                  autocomplete="off"
+                  class="form-control"
+                  label="Allocation Formula Description"
+                  name="allocationForumlaDesc"
+                  placeholder="Pre Tax Additional Rule For Auto Enrolled"
+                  rows="3"
+                />
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Effective Start date
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Effective End date
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Formula applies to
+                   
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  label="Allocation Formula applies to"
+                  name="allocatedCompanyName"
+                  placeholder="Employee Classification"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Employee Classifications Applicable
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class=" md form-group"
+            >
+              <label
+                class="form-label"
+              >
+                Employer Contribution Type
+                 
+              </label>
+              <input
+                autocomplete="off"
+                class="form-control"
+                label="Employer Contribution Type"
+                name="employerContributionType"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class=" xs form-group"
+            >
+              <label
+                class="form-label"
+              >
+                Percentage of Compensation
+                 
+              </label>
+              <div
+                class="d-flex"
+              >
+                <input
+                  autocomplete="off"
+                  class="form-control form-control-xs"
+                  label="Percentage of Compensation"
+                  name="percentageOfCompensation"
+                  suggestiondefaulttext="%"
+                  type="text"
+                  value=""
+                />
+                <span
+                  class="suggest-text"
+                >
+                  %
+                </span>
+              </div>
+            </div>
+            <div
+              class=" md form-group"
+            >
+              <label
+                class="form-label"
+              >
+                Period for Calculation
+                 
+              </label>
+              <input
+                autocomplete="off"
+                class="form-control"
+                label="Period for Calculation"
+                name="periodForCalculation"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+`;
+
+exports[`SourcesAdditonalAllocationRulesContainer - sprint 4 Employer form to match employer form & ADI applicable Match 1`] = `
+<body>
+  <div>
+    <form
+      class="h-100"
+    >
+      <div
+        class="d-flex flex-column manage-company h-100"
+      >
+        <div
+          class="d-flex layout-header align-items-center"
+        >
+          <div>
+            <nav
+              aria-label="breadcrumb"
+            >
+              <ol
+                class="breadcrumb"
+              >
+                <li
+                  class="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    role="button"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      Home
+                    </a>
+                  </a>
+                </li>
+                <li
+                  class="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    role="button"
+                  >
+                    <a
+                      href="/plans"
+                    >
+                      Manage Plan
+                    </a>
+                  </a>
+                </li>
+              </ol>
+            </nav>
+            <h5 />
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-center tab-wrapper"
+          />
+          <div
+            class="ml-auto"
+          >
+            <div>
+              <button
+                class="btn btn-secondary"
+                flow="add,save"
+                type="button"
+              >
+                Cancel
+              </button>
+                 
+              <button
+                class="btn btn-primary"
+                flow="add,save"
+                type="submit"
+              >
+                Save
+              </button>
+                 
+            </div>
+          </div>
+        </div>
+        <div
+          class="layout-content h-100 overflow-auto"
+        >
+          <div
+            class="plan-heading"
+          >
+            Allocation Rules
+          </div>
+          <div>
+            <div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Formula Description
+                   
+                </label>
+                <textarea
+                  autocomplete="off"
+                  class="form-control"
+                  label="Allocation Formula Description"
+                  name="allocationForumlaDesc"
+                  placeholder="Pre Tax Additional Rule For Auto Enrolled"
+                  rows="3"
+                />
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Effective Start date
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Effective End date
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Formula applies to
+                   
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  label="Allocation Formula applies to"
+                  name="allocatedCompanyName"
+                  placeholder="Employee Classification"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Employee Classifications Applicable
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div>
+              <div
+                class=" sm form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Safe harbour match?
+                   
+                </label>
+                <div
+                  class="form-control form-button-group "
+                >
+                  <div
+                    aria-label="Safe harbour match?"
+                    class="btn-group"
+                    name="isSafeHarbourMatch"
+                    role="group"
+                  >
+                    <button
+                      class="btn btn-primary"
+                      data-attr="true"
+                      type="button"
+                    >
+                      Yes
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-attr="false"
+                      type="button"
+                    >
+                      No
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+`;
+
+exports[`SourcesAdditonalAllocationRulesContainer - sprint 4 Employer form to match employer form 1`] = `
+<body>
+  <div>
+    <form
+      class="h-100"
+    >
+      <div
+        class="d-flex flex-column manage-company h-100"
+      >
+        <div
+          class="d-flex layout-header align-items-center"
+        >
+          <div>
+            <nav
+              aria-label="breadcrumb"
+            >
+              <ol
+                class="breadcrumb"
+              >
+                <li
+                  class="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    role="button"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      Home
+                    </a>
+                  </a>
+                </li>
+                <li
+                  class="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    role="button"
+                  >
+                    <a
+                      href="/plans"
+                    >
+                      Manage Plan
+                    </a>
+                  </a>
+                </li>
+              </ol>
+            </nav>
+            <h5 />
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-center tab-wrapper"
+          />
+          <div
+            class="ml-auto"
+          >
+            <div>
+              <button
+                class="btn btn-secondary"
+                flow="add,save"
+                type="button"
+              >
+                Cancel
+              </button>
+                 
+              <button
+                class="btn btn-primary"
+                flow="add,save"
+                type="submit"
+              >
+                Save
+              </button>
+                 
+            </div>
+          </div>
+        </div>
+        <div
+          class="layout-content h-100 overflow-auto"
+        >
+          <div
+            class="plan-heading"
+          >
+            Allocation Rules
+          </div>
+          <div>
+            <div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Formula Description
+                   
+                </label>
+                <textarea
+                  autocomplete="off"
+                  class="form-control"
+                  label="Allocation Formula Description"
+                  name="allocationForumlaDesc"
+                  placeholder="Pre Tax Additional Rule For Auto Enrolled"
+                  rows="3"
+                />
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Effective Start date
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Effective End date
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Formula applies to
+                   
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  label="Allocation Formula applies to"
+                  name="allocatedCompanyName"
+                  placeholder="Employee Classification"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Employee Classifications Applicable
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+`;
+
+exports[`SourcesAdditonalAllocationRulesContainer - sprint 4 to match employee form 1`] = `
+<body>
+  <div>
+    <form
+      class="h-100"
+    >
+      <div
+        class="d-flex flex-column manage-company h-100"
+      >
+        <div
+          class="d-flex layout-header align-items-center"
+        >
+          <div>
+            <nav
+              aria-label="breadcrumb"
+            >
+              <ol
+                class="breadcrumb"
+              >
+                <li
+                  class="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    role="button"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      Home
+                    </a>
+                  </a>
+                </li>
+                <li
+                  class="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    role="button"
+                  >
+                    <a
+                      href="/plans"
+                    >
+                      Manage Plan
+                    </a>
+                  </a>
+                </li>
+              </ol>
+            </nav>
+            <h5 />
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-center tab-wrapper"
+          />
+          <div
+            class="ml-auto"
+          >
+            <div>
+              <button
+                class="btn btn-secondary"
+                flow="add,save"
+                type="button"
+              >
+                Cancel
+              </button>
+                 
+              <button
+                class="btn btn-primary"
+                flow="add,save"
+                type="submit"
+              >
+                Save
+              </button>
+                 
+            </div>
+          </div>
+        </div>
+        <div
+          class="layout-content h-100 overflow-auto"
+        >
+          <div
+            class="plan-heading"
+          >
+            Allocation Rules
+          </div>
+          <div>
+            <div>
+              <div
+                class=" sm form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Is Contribution mandatory?
+                   
+                </label>
+                <div
+                  class="form-control form-button-group "
+                >
+                  <div
+                    aria-label="Is Contribution mandatory?"
+                    class="btn-group"
+                    name="isContributionMandatory"
+                    role="group"
+                  >
+                    <button
+                      class="btn btn-primary"
+                      data-attr="true"
+                      type="button"
+                    >
+                      Yes
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-attr="false"
+                      type="button"
+                    >
+                      No
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Contribution Type
+                   
+                </label>
+                <div
+                  class="form-control form-button-group "
+                >
+                  <div
+                    aria-label="Contribution Type"
+                    class="btn-group"
+                    name="contributionType"
+                    role="group"
+                  >
+                    <button
+                      class="btn btn-primary"
+                      data-attr="1"
+                      type="button"
+                    >
+                      Percentage
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-attr="2"
+                      type="button"
+                    >
+                      Dollar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class=" xs form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Limit (Minimum)
+                   
+                </label>
+                <div
+                  class="d-flex"
+                >
+                  <input
+                    autocomplete="off"
+                    class="form-control form-control-xs"
+                    label="Limit (Minimum)"
+                    name="maxLimit"
+                    suggestiondefaulttext="%"
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    class="suggest-text"
+                  >
+                    %
+                  </span>
+                </div>
+              </div>
+              <div
+                class=" xs form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Limit (Maximum)
+                   
+                </label>
+                <div
+                  class="d-flex"
+                >
+                  <input
+                    autocomplete="off"
+                    class="form-control form-control-xs"
+                    label="Limit (Maximum)"
+                    name="minLimit"
+                    suggestiondefaulttext="%"
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    class="suggest-text"
+                  >
+                    %
+                  </span>
+                </div>
+              </div>
+              <div
+                class=" xs form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Maximum Compensation
+                   
+                </label>
+                <div
+                  class="d-flex"
+                >
+                  <input
+                    autocomplete="off"
+                    class="form-control form-control-xs"
+                    label="Maximum Compensation"
+                    name="maxCompensation"
+                    suggestiondefaulttext="%"
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    class="suggest-text"
+                  >
+                    %
+                  </span>
+                </div>
+              </div>
+              <div
+                class=" xs form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Deferral percentage for re-hires (optional)
+                   
+                </label>
+                <div
+                  class="d-flex"
+                >
+                  <input
+                    autocomplete="off"
+                    class="form-control form-control-xs"
+                    label="Deferral percentage for re-hires (optional)"
+                    name="deferralPercForRehires"
+                    suggestiondefaulttext="%"
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    class="suggest-text"
+                  >
+                    %
+                  </span>
+                </div>
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Contrbution method
+                   
+                </label>
+                <div
+                  class="form-control form-button-group "
+                >
+                  <div
+                    aria-label="Contrbution method"
+                    class="btn-group"
+                    name="contributionMethod"
+                    role="group"
+                  >
+                    <button
+                      class="btn btn-primary"
+                      data-attr="1"
+                      type="button"
+                    >
+                      Check
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-attr="2"
+                      type="button"
+                    >
+                      Wire
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-attr="3"
+                      type="button"
+                    >
+                      Both
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex"
+              >
+                <div
+                  class=" md form-group"
+                >
+                  <label
+                    class="form-label"
+                  >
+                    Allocation percentage for re-hires
+                     
+                  </label>
+                  <div
+                    class="form-control form-button-group "
+                  >
+                    <div
+                      aria-label="Allocation percentage for re-hires"
+                      class="btn-group"
+                      name="allocationPercForRehires"
+                      role="group"
+                    >
+                      <button
+                        class="btn btn-primary"
+                        data-attr="1"
+                        type="button"
+                      >
+                        Original Allocation Percentage
+                      </button>
+                      <button
+                        class="btn btn-primary"
+                        data-attr="2"
+                        type="button"
+                      >
+                        Other
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                   
+              </div>
+            </div>
+            <div
+              class="line-separator"
+            />
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                <div
+                  class=" sm form-group"
+                >
+                  <label
+                    class="form-label"
+                  >
+                    Enroll into Auto Deferral Increase (ADI) Programme?
+                     
+                  </label>
+                  <div
+                    class="form-control form-button-group "
+                  >
+                    <div
+                      aria-label="Enroll into Auto Deferral Increase (ADI) Programme?"
+                      class="btn-group"
+                      name="shouldEnrollInAdiProgramme"
+                      role="group"
+                    >
+                      <button
+                        class="btn btn-primary"
+                        data-attr="true"
+                        type="button"
+                      >
+                        Yes
+                      </button>
+                      <button
+                        class="btn btn-primary"
+                        data-attr="false"
+                        type="button"
+                      >
+                        No
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="line-separator"
+            />
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                <div
+                  class=" sm form-group"
+                >
+                  <label
+                    class="form-label"
+                  >
+                    Subject to Auto Enrollment?
+                     
+                  </label>
+                  <div
+                    class="form-control form-button-group "
+                  >
+                    <div
+                      aria-label="Subject to Auto Enrollment?"
+                      class="btn-group"
+                      name="subjectToAutoEnrollment"
+                      role="group"
+                    >
+                      <button
+                        class="btn btn-primary"
+                        data-attr="true"
+                        type="button"
+                      >
+                        Yes
+                      </button>
+                      <button
+                        class="btn btn-primary"
+                        data-attr="false"
+                        type="button"
+                      >
+                        No
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="line-separator"
+            />
+            <div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Formula Description
+                   
+                </label>
+                <textarea
+                  autocomplete="off"
+                  class="form-control"
+                  label="Allocation Formula Description"
+                  name="allocationForumlaDesc"
+                  placeholder="Pre Tax Additional Rule For Auto Enrolled"
+                  rows="3"
+                />
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Effective Start date
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Effective End date
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Allocation Formula applies to
+                   
+                </label>
+                <input
+                  autocomplete="off"
+                  class="form-control"
+                  label="Allocation Formula applies to"
+                  name="allocatedCompanyName"
+                  placeholder="Employee Classification"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class=" md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Employee Classifications Applicable
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+`;

@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "label": "Daily",
+      "value": 1
+    },
+    {
+      "label": "Weekly",
+      "value": 2
+    },
+    {
+      "label": "Bi-Weekly",
+      "value": 8
+    },
+    {
+      "label": "Semi-Monthly",
+      "value": 3
+    },
+    {
+      "label": "Monthly",
+      "value": 4
+    },
+    {
+      "label": "Quarterly",
+      "value": 5
+    },
+    {
+      "label": "Semi-Annually",
+      "value": 6
+    },
+    {
+      "label": "Annually",
+      "value": 7
+    }
+  ]
+}

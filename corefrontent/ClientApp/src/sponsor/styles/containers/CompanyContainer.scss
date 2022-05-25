@@ -1,0 +1,249 @@
+.company-container {
+  padding: 0rem 1rem;
+  width: 100%;
+  height: 98%;
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: auto;
+  .company-heading {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  .company-search-button {
+    background-color: #fff;
+    border-right: 0px !important;
+    &:hover,
+    &:focus {
+      background-color: #fff;
+    }
+  }
+  .company-search-box {
+    border-left: 0px !important;
+    &::placeholder {
+      font-size: 0.75rem;
+    }
+  }
+  .cspl-table {
+    /*max-height: 435px;*/
+    height: 100%;
+    overflow: hidden;
+    border: 0px;
+    a {
+      &:hover {
+        font-weight: 500;
+      }
+      color: $link;
+    }
+    .column-company-name {
+      width: 25%;
+    }
+    .column-company-type {
+      width: 10%;
+    }
+    .column-company-sponsoring {
+      width: 15%;
+    }
+    .column-company-plan {
+      width: 15%;
+    }
+    .column-company-employees {
+      width: 15%;
+    }
+    .column-company-participation {
+      width: 20%;
+    }
+  }
+
+  .sponsor-org-table {
+    overflow: hidden;
+    height: 100%;
+    .sponsored-org-list,
+    .sponsored-org-list-table {
+      overflow: hidden;
+      height: 100%;
+    }
+    .sponsored-org {
+      height: 100%;
+      overflow-y: auto;
+      .sponsored-org-item {
+        border: 0px;
+        background: #eeeeee;
+        padding: 20px 15px;
+        margin-bottom: 2px;
+        &.selected {
+          background: #ffffff;
+        }
+        .sponsored-org-name {
+          font-weight: 500;
+        }
+        .sponsored-org-count {
+          background: #d5d5d5;
+          border-radius: 10px;
+          padding: 3px 13px;
+          color: #000000;
+          font-size: 10px;
+        }
+      }
+    }
+    .selected-sponsor-org-title {
+      background: #eeeeee;
+      font-size: 18px;
+      padding: 10px 25px;
+      margin-bottom: 3px;
+    }
+  }
+
+  .company-card-list-wrapper {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    border: 0px;
+    padding-top: 5px;
+    padding-left: 1px;
+    padding-right: 1px;
+    .company-card-item {
+      margin-bottom: 20px;
+      color: inherit;
+      text-decoration: none;
+      &:hover {
+        font-weight: normal !important;
+      }
+      .company-card-item-content {
+        padding: 10px;
+        background: #ffffff;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        position: relative;
+        .company-name {
+          width: 80%;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+        .company-icon-wrapper {
+          width: 40%;
+        }
+        .plan-details-wrapper {
+          width: 60%;
+        }
+        .planTitle-text {
+          font-size: 12px;
+          margin-bottom: 0;
+          color: #898989;
+        }
+        .planName-text {
+          font-size: 14px;
+          font-weight: 500;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  .text-ellipse {
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+}
+
+.mt-5 {
+  margin-top: -10px;
+}
+
+.basic-company-details {
+  width: 50% !important;
+  .data-item {
+    margin-right: 3rem;
+    .label {
+      font-size: 0.3rem;
+      color: $header-label-color;
+      line-height: 2;
+    }
+    .value {
+      font-size: 0.9rem;
+      color: #000000;
+      font-weight: 500;
+      line-height: 1.5;
+      white-space: nowrap;
+    }
+  }
+}
+
+.label-size {
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+  color: #acacac;
+}
+
+.include-button {
+  background-color: #e0f5e5;
+  color: #00cc2d;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.exlude-button {
+  background-color: #fdeae6;
+  color: #ef2b08;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+.company-compensation-table {
+  overflow: hidden;
+  height: 100%;
+  background-color: white;
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  // .no-hover {
+  //   &:hover {
+  //     background-color: white !important;
+  //   }
+  // }
+  .company-compensation {
+    height: 100%;
+    overflow-y: auto;
+  }
+  .compensation-categori {
+    width: 55%;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .gross-compensation {
+    width: 25%;
+    font-weight: 500;
+    font-size: 12px;
+    .form-group.sm .form-control,
+    .form-group .dropSide-popup .sm .form-control {
+      width: unset !important;
+    }
+  }
+
+  .action-btn {
+    width: 20%;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .company-compensation-table-row:nth-child(even) {
+    background-color: #f9f9f9 !important;
+  }
+  .pointer {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.space-btw {
+  margin-right: 2rem;
+}
+
+.comp-heading {
+  font-weight: 500;
+  font-size: 16px;
+  color: #333333;
+}

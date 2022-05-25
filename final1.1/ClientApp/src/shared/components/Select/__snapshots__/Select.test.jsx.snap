@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select to match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="dropdown-component"
+    >
+      <div
+        class="dropdown"
+      >
+        <button
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="dropdown-toggle btn btn-primary"
+          id="dropdown-menu-align-right"
+          type="button"
+        />
+      </div>
+    </div>
+  </div>
+</body>
+`;

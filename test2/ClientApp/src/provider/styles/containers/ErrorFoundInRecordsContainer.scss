@@ -1,0 +1,118 @@
+.ssn-search-tabs-navs {
+  width: 16%;
+}
+.ssn-search-tabs-content {
+  width: 84%;
+}
+
+.cspl-table {
+  &.contribution-details,
+  &.compensation-details,
+  &.loan-details-table,
+  &.error-report-table {
+    .table-cell {
+      align-items: flex-start !important;
+    }
+  }
+  &.contribution-details {
+    .column-select {
+      width: 10%;
+    }
+    .column-contribution-description {
+      width: 25%;
+    }
+    .column-contribution-amount {
+      width: 25%;
+    }
+    .column-contribution-errormessage {
+      width: 40%;
+      white-space: normal;
+    }
+  }
+  &.compensation-details {
+    .column-select {
+      width: 8%;
+    }
+    .column-compensation-planid {
+      width: 10%;
+    }
+    .column-compensation-contribution-src {
+      width: 17%;
+    }
+    .column-compensation-contribution-amt {
+      width: 25%;
+    }
+    .column-compensation-calculated-value {
+      width: 17%;
+    }
+    .column-compensation-errormessage {
+      width: 25%;
+    }
+  }
+  &.loan-details-table {
+    .column-loan-id {
+      width: 10%;
+    }
+    .column-outstanding-loan-amount {
+      width: 15%;
+    }
+    .column-periodic-payment-amount {
+      width: 15%;
+    }
+    .column-loan-status {
+      width: 10%;
+    }
+    .column-plan-status {
+      width: 10%;
+    }
+    .column-loan-amortization {
+      width: 18%;
+    }
+  }
+  &.error-report-table {
+    .column-loan-id {
+      width: 20%;
+    }
+    .column-outstanding-loan-amount {
+      width: 30%;
+    }
+    .column-errormessage {
+      width: 50%;
+    }
+  }
+  &.loan-details-view-table {
+    .column-installmentCount {
+      width: 10%;
+    }
+    .column-paymentDate {
+      width: 10%;
+    }
+    .column-paydate {
+      width: 10%;
+    }
+    .column-expectedRepaymentAmount {
+      width: 10%;
+    }
+    .column-loanRepaymentAmount {
+      width: 10%;
+    }
+    .column-principalPayment {
+      width: 10%;
+    }
+    .column-interestPayment {
+      width: 10%;
+    }
+    .column-outstandingPrincipalBalance {
+      width: 10%;
+    }
+    .column-loanStatus {
+      width: 10%;
+    }
+  }
+}
+
+.total-records-pos {
+  position: absolute;
+  right: 25px;
+  top: 55px;
+}

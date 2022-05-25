@@ -1,0 +1,22 @@
+.plan-name-details {
+  font-size: 0.75rem;
+  .plan-name {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2;
+  }
+  .plan-id {
+    text-transform: capitalize;
+    margin-top: 0.15rem;
+  }
+  .plan-status {
+    margin-top: 0.5rem;
+    background: rgba(255, 199, 0, 0.3);
+    border: 1px solid #ffc700;
+    text-transform: capitalize;
+    width: max-content;
+    padding: 0.25rem 1rem;
+    border-radius: 5px;
+    color: #000000;
+  }
+}

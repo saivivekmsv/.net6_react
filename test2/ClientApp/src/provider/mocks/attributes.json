@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "attributeName": "Weekly Meeting",
+      "attributeValue": "Monday"
+    },
+    {
+      "id": 1,
+      "attributeName": "Montly Offsite",
+      "attributeValue": "Last friday of the month"
+    }
+  ]
+}

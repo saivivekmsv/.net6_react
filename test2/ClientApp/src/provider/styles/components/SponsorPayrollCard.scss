@@ -1,0 +1,330 @@
+.payroll-card {
+  width: 65%;
+  height: 7.75rem;
+}
+.file-text {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #000;
+  margin-left: 0.625rem;
+  line-height: 150%;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+.ellipse {
+  width: 0.375rem;
+  height: 0.375rem;
+  margin-top: 0.438rem;
+  border: 0.063rem solid #c4c4c4;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+.date {
+  width: 10.599rem;
+  height: 1.096rem;
+  margin-top: 0.813rem;
+}
+.border-line {
+  width: 100%;
+  border-bottom: 0.063rem solid #e0e0e0;
+  padding-bottom: 0.625rem;
+}
+.pay-date-card {
+  width: 85%;
+  height: 3.125rem;
+  margin-top: 0.938rem;
+  display: flex;
+  flex-direction: row;
+}
+.progress-file-card {
+  width: 100%;
+  padding-left: 1.063rem;
+  border-left: 0.063rem solid #e0e0e0;
+}
+
+.grey-text {
+  color: #828282;
+}
+.dark-grey-text {
+  color: #4f4f4f;
+}
+.light-black {
+  color: #333333;
+}
+.line-h-150 {
+  line-height: 150%;
+}
+
+.ft-10 {
+  font-size: 0.625rem;
+}
+.ft-14 {
+  font-size: 0.875rem;
+}
+.ft-16 {
+  font-size: 1rem;
+}
+.ft-12 {
+  font-size: 0.75rem;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.line-h-150 {
+  line-height: 150%;
+}
+.marg-top-5 {
+  margin-top: 0.313rem;
+}
+.marg-r-40 {
+  margin-right: 2.5rem;
+}
+
+.br-1 {
+  border-right: 0.063rem solid#F2F2F2;
+  height: 6.25rem;
+  align-self: center;
+}
+.error-btn {
+  border: 0.063rem solid #f94f50;
+  color: #f16973;
+  border-radius: 0.313rem;
+  padding: 0.313rem 0.938rem;
+  background: #fff;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.pending-btn {
+  border: 0.063rem solid#fa9715;
+  color: #fa9715;
+  border-radius: 0.313rem;
+  padding: 0.313rem 0.938rem;
+  background: #fff;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.awaiting-btn {
+  border: 0.063rem solid #5ace9f;
+  color: #5ace9f;
+  border-radius: 0.313rem;
+  padding: 0.313rem 0.938rem;
+  background: #fff;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.create-btn {
+  border: 0.063rem solid #2f7eed;
+  color: #2f7eed;
+  border-radius: 0.313rem;
+  padding: 0.313rem 0.938rem;
+  background: #fff;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.title-wrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.para-wrap {
+  white-space: nowrap;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.two-lines {
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+// condition check for border card color
+.borderCreationInProgress {
+  border-left: 0.313rem solid #2f7eed !important;
+}
+.borderErrorCorrectionRequired {
+  border-left: 0.313rem solid #f94f50 !important;
+}
+.borderDuplicateRecordsFound {
+  border-left: 5px solid #f94f50 !important;
+}
+.borderStructuralValidationFailed {
+  border-left: 5px solid #f94f50 !important;
+}
+.borderSystemFailure {
+  border-left: 5px solid #f94f50 !important;
+}
+.borderPendingSubmission {
+  border-left: 0.313rem solid#fa9715 !important;
+}
+.borderAwaitingFunding {
+  border-left: 0.313rem solid #5ace9f !important;
+}
+.borderAwaitingTrade {
+  border-left: 0.313rem solid #5ace9f !important;
+}
+.borderCompleted {
+  border-left: 0.313rem solid #5ace9f !important;
+}
+.file-list {
+  overflow: auto;
+  height: 60%;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.card-box {
+  width: 100%;
+  height: 12rem;
+  border: 0.063rem solid #e0e0e0;
+  position: relative;
+  background: #ffffff;
+  border-radius: 0.313rem;
+  padding: 1.25rem 1.063rem 1.25rem 1.25rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  .progress-status {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    margin-bottom: 0;
+    margin-right: 1.25rem;
+    align-items: center;
+    border: 0;
+    background: #fff;
+    .progress-active {
+      width: 1.563rem;
+      height: 1.563rem;
+      text-align: center;
+      padding-top: 0.188rem;
+      color: #2f7fed;
+      border: 0.063rem solid #2f7fed;
+      background: #fff;
+      border-radius: 3.125rem;
+    }
+    li {
+      margin-left: 0.938rem;
+      width: 1.563rem;
+      height: 1.563rem;
+      text-align: center;
+      padding-top: 0.188rem;
+      background: #f5f5f5;
+      color: #333;
+      border-radius: 3.125rem;
+      border: 0.063rem solid #f5f5f5;
+    }
+    .awaiting-bg {
+      background: #5ace9f;
+      border: 0.063rem solid #5ace9f;
+      color: #fff;
+    }
+    .awaiting-blue {
+      background: #2f7fed;
+      border: 0.063rem solid #2f7fed;
+      color: #fff;
+    }
+  }
+
+  .popup-block {
+    .popup-bg {
+      background: rgba(0, 0, 0, 0.65);
+      position: absolute;
+      right: 0rem;
+      top: 0;
+      backdrop-filter: blur(0.625rem);
+      padding: 2.188rem 1.25rem;
+      width: 40%;
+      height: 100%;
+      border-radius: 0.313rem;
+    }
+    background: rgba(181, 181, 181, 0.61);
+    border: 0.063rem solid #e3e3e3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.313rem;
+    top: 0;
+    right: -25rem;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    p {
+      color: #fff;
+      font-weight: 500;
+      font-size: 0.75rem;
+      margin-bottom: 0.625rem;
+    }
+    .danger-btn {
+      background: #eb5757;
+      color: #fff;
+      border-radius: 0.313rem;
+      padding: 0.313rem 0.938rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      border: 0;
+    }
+    .cancel-btn {
+      color: #eb5757;
+      background: #fff;
+      border-radius: 0.313rem;
+      padding: 0.313rem 0.938rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      border: 0;
+    }
+    @-webkit-keyframes slide {
+      100% {
+        right: 0;
+      }
+    }
+    @keyframes slide {
+      100% {
+        right: 0;
+      }
+    }
+  }
+  .close-anime {
+    left: -25rem;
+    -webkit-animation: slide-left 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide-left 0.5s forwards;
+  }
+  @-webkit-keyframes slide-left {
+    100% {
+      left: 0;
+    }
+  }
+  @keyframes slide-left {
+    100% {
+      left: 0;
+    }
+  }
+}
+@media screen and (max-width: 47.625rem) {
+  .pay-date-card {
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    align-items: flex-start;
+  }
+  .card-box {
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    align-items: flex-start;
+  }
+}

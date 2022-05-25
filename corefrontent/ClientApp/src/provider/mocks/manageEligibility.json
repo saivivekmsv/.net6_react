@@ -1,0 +1,23 @@
+  [
+    {
+      "id": 1,
+      "eligibilityName": "Eligibility -P101",
+      "eligibilityType": 1
+    },
+    {
+      "id": 2,
+      "eligibilityName": "Eligibility -S101",
+      "eligibilityType": 2
+    },
+    {
+      "id": 3,
+      "eligibilityName": "Eligibility -S102",
+      "eligibilityType": 2
+    },
+    {
+      "id": 4,
+      "eligibilityName": "Eligibility -S103",
+      "eligibilityType": 2
+    }
+  ]
+  

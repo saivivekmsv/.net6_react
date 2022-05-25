@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "employeeClassificationType": 1,
+    "clientEligibilityClassificationRequired": true,
+    "classificationTypeRequired": true,
+    "multipleSelectionsAllowed": true,
+    "employeeClassificationCodes": [
+      {
+        "id": 1,
+        "code": "DEL",
+        "value": "DELHI",
+        "effectiveStartDate": "2020-11-05T12:06:10.350Z",
+        "effectiveEndDate": "2020-11-05T12:06:10.350Z",
+        "attributes": [
+          {
+            "id": 1,
+            "name": "Address",
+            "value": "Guindy"
+          },
+          {
+            "id": 2,
+            "name": "Area",
+            "value": "Kolathur"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "code": "MUB",
+        "value": "Mumbai",
+        "effectiveStartDate": "2020-11-05T12:06:10.350Z",
+        "effectiveEndDate": "2020-11-05T12:06:10.350Z",
+        "attributes": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "employeeClassificationType": 2,
+    "clientEligibilityClassificationRequired": true,
+    "classificationTypeRequired": true,
+    "multipleSelectionsAllowed": true,
+    "employeeClassificationCodes": [
+      {
+        "id": 1,
+        "code": "DEL",
+        "value": "DELHI",
+        "effectiveStartDate": "2020-11-05T12:06:10.350Z",
+        "effectiveEndDate": "2020-11-05T12:06:10.350Z",
+        "attributes": [
+          {
+            "id": 1,
+            "name": "Address",
+            "value": "Guindy"
+          },
+          {
+            "id": 2,
+            "name": "Area",
+            "value": "Kolathur"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "employeeClassificationType": 3,
+    "clientEligibilityClassificationRequired": true,
+    "classificationTypeRequired": true,
+    "multipleSelectionsAllowed": true,
+    "employeeClassificationCodes": [
+      {
+        "id": 1,
+        "code": "DEL",
+        "value": "DELHI",
+        "effectiveStartDate": "2020-11-05T12:06:10.350Z",
+        "effectiveEndDate": "2020-11-05T12:06:10.350Z",
+        "attributes": [
+          {
+            "id": 1,
+            "name": "Address",
+            "value": "Guindy"
+          },
+          {
+            "id": 2,
+            "name": "Area",
+            "value": "Kolathur"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "code": "KOK",
+        "value": "KOLKATTA",
+        "effectiveStartDate": "2020-11-05T12:06:10.350Z",
+        "effectiveEndDate": "2020-11-05T12:06:10.350Z",
+        "attributes": [
+          {
+            "id": 1,
+            "name": "Area",
+            "value": "Medical college"
+          },
+          {
+            "id": 2,
+            "name": "Hotel",
+            "value": "Saravana Bhavan"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "id": 123,
+    "payDate": "12/01/2019",
+    "totalContribution": "$ 400.00",
+    "comments": "view",
+    "tooltip": "Added through File ACME 123 Plan 123 with loan details L123 _12122019",
+    "contributions": [
+      {
+        "source": "EmployeePre-tax",
+        "contribution": "$ 100.00"
+      },
+      {
+        "source": "Employee Deferral -AT",
+        "contribution": "$ 100.00"
+      },
+      {
+        "source": "Employee-Deferral -Catch-up",
+        "contribution": "$ 100.00"
+      },
+      {
+        "source": "Employee PT2",
+        "contribution": "$ 100.00"
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "payDate": "31/01/2019",
+    "totalContribution": "$ 1200.00",
+    "annualSalary": "$ 1200",
+    "comments": "view",
+    "tooltip": "Added through File ACME 123 Plan 123 with loan details L123 _12122019",
+    "contributions": [
+      {
+        "source": "EmployeePre-tax",
+        "contribution": "$ 600.00"
+      },
+      {
+        "source": "Employee Deferral -AT",
+        "contribution": "$ 200.00"
+      },
+      {
+        "source": "Employee-Deferral -Catch-up",
+        "contribution": "$ 200.00"
+      },
+      {
+        "source": "Employee PT2",
+        "contribution": "$ 0.00"
+      },
+      {
+        "source": "Employee-Deferral -Catch-up",
+        "contribution": "$ 100.00"
+      },
+      {
+        "source": "Employee PT2",
+        "contribution": "$ 100.00"
+      }
+    ]
+  },
+  {
+    "id": 12345,
+    "payDate": "12/01/2019",
+    "totalContribution": "$ 500.00",
+    "annualSalary": "$ 500",
+    "comments": "view",
+    "tooltip": "Added through File ACME 123 Plan 123 with loan details L123 _12122019",
+    "contributions": [
+      {
+        "source": "EmployeePre-tax",
+        "contribution": "$ 200.00"
+      },
+      {
+        "source": "Employee Deferral -AT",
+        "contribution": "$ 200.00"
+      },
+      {
+        "source": "Employee PT2",
+        "contribution": "$ 100.00"
+      }
+    ]
+  },
+  {
+    "id": 123456,
+    "payDate": "12/01/2019",
+    "totalContribution": "$ 600.00",
+    "annualSalary": "$ 600",
+    "comments": "view",
+    "tooltip": "Added through File ACME 123 Plan 123 with loan details L123 _12122019",
+    "contributions": [
+      {
+        "source": "EmployeePre-tax",
+        "contribution": "$600"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+
+  [
+    {
+      "label": "Hired on or after",
+      "value": 1
+    },
+    {
+      "label": "Hired on or before",
+      "value": 2
+    },
+    {
+      "label": "Hired between (inclusive)",
+      "value": 3
+    }
+  ]
+  

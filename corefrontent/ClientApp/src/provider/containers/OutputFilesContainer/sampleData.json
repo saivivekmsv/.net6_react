@@ -1,0 +1,63 @@
+[
+  {
+    "OutputFileName": "OutputFileName1",
+    "FileType": "excel",
+    "DateAndTime": "11/11/2021 12:00:31",
+    "SFTPURL": "https://Sftp",
+    "Input": "sample input",
+    "Map": "Common Rem Profile 1",
+    "PlanNames": [
+      "Hf  Pension Plan ",
+      "Hf  Pension Plan  2",
+      "Hf  Pension Plan  3"
+    ],
+    "Status": "Error",
+    "Description": "-",
+    "User": "Sample User",
+    "CanDownload": true
+  },
+  {
+    "OutputFileName": "OutputFileName2",
+    "FileType": "csv",
+    "DateAndTime": "11/11/2021 12:00:31",
+    "SFTPURL": "https://Sftp",
+    "Input": "sample input2",
+    "Map": "Common Rem Profile 1",
+    "PlanNames": [
+      "Hf Order  Plan ",
+      "Hf Order  Plan  2",
+      "Hf Order  Plan  3",
+      "Hf Order  Plan ",
+      "Hf Order  Plan  2",
+      "Hf Order  Plan  3",
+      "Hf Order  Plan ",
+      "Hf Order  Plan  2",
+      "Hf Order  Plan  3",
+      "Hf Order  Plan ",
+      "Hf Order  Plan  2",
+      "Hf Order  Plan  3"
+    ],
+    "Status": "Generated",
+    "Description": "-",
+    "User": "Sample User2",
+    "CanDownload": false
+  },
+  {
+    "OutputFileName": "OutputFileName3",
+    "FileType": "excel",
+    "DateAndTime": "11/11/2021 12:00:31",
+    "SFTPURL": "https://Sftp",
+    "Input": "sample input3",
+    "Map": "Common Rem Profile 1",
+    "PlanNames": [
+      "Hf Order Pension  ",
+      "Hf Order Pension   2",
+      "Hf Order Pension   3",
+      "Hf Order Pension   4"
+    ],
+    "Status": "Success",
+    "Description": "-",
+    "User": "Sample User3",
+    "CanDownload": true
+  }
+]

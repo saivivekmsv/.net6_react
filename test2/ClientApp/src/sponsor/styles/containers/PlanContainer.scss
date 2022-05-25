@@ -1,0 +1,429 @@
+.plan-container {
+  padding: 0rem 1rem;
+  width: 100%;
+  height: 100%;
+  // overflow: scroll;
+  margin-top: auto;
+  margin-bottom: auto;
+  .custom-switch.custom-control
+    .custom-control-input:checked
+    ~ .custom-control-label::after {
+    right: inherit !important;
+    left: -1.2rem;
+  }
+  .plan-left-border-tile {
+    border-left: 1px solid #e2e2e2;
+    padding-left: 5px;
+    padding-top: 5px;
+    height: 50px;
+  }
+  .plan-card-container {
+    margin: 1px;
+    width: 100%;
+    .plan-name-tile {
+      height: 3rem;
+      padding: 0.1rem;
+    }
+    .edit-flow a {
+      color: #828282;
+    }
+    .cspl-table {
+      border: 0;
+      .column-investment {
+        width: 60%;
+      }
+      .column-percentage {
+        width: 30%;
+      }
+      .column-action {
+        width: 10%;
+      }
+    }
+    .edit-action {
+      cursor: pointer;
+      position: absolute;
+      z-index: 1;
+      right: 16px;
+    }
+    .edit-flow {
+      cursor: pointer;
+      position: absolute;
+      z-index: 1;
+      right: 15px;
+    }
+    // overflow-y: auto;
+    .plancard-row {
+      height: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding-top: 5px;
+    }
+    .plan-card {
+      padding: 10px;
+      background: #ffffff;
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      margin-bottom: 20px;
+      position: relative;
+      border: 1px solid #e2e2e2c9;
+      cursor: pointer;
+      .planTitle-text {
+        font-size: 12px;
+        margin-bottom: 0;
+        color: #898989;
+      }
+      .planName-text {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+      .border-status {
+        width: 6px;
+        background: #fff;
+        border-radius: 5px;
+      }
+      .active {
+        background: #5ace9f;
+      }
+      .readyforapproval {
+        background: #2f80ed;
+      }
+      .approved {
+        background: #2e98a0;
+      }
+      .underconstruction {
+        background: #ff9716;
+      }
+      .terminated {
+        background: #f16973;
+      }
+      .inactive {
+        background: #b4b4b4;
+      }
+      .ml-10 {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .custom-control-label {
+    padding-left: 10px;
+  }
+  .mll-2 {
+    margin-left: 2rem;
+  }
+  .plan-search-button {
+    background-color: #fff;
+    border-right-color: #495057 !important;
+    border-radius: 0rem 0.3rem 0.3rem 0rem !important;
+    border-left: #fff !important;
+    &:hover,
+    &:focus {
+      background-color: #fff;
+    }
+  }
+
+  .plan-search-box {
+    border-right-color: transparent !important;
+    &::placeholder {
+      font-size: 0.75rem;
+    }
+  }
+  .filter-icon {
+    padding: 10px 15px;
+  }
+  .form-control-seach-text input {
+    border-radius: 0.3rem 0rem 0rem 0.3rem;
+  }
+  .cspl-table {
+    /*max-height: 435px;*/
+    /*height: 100%;*/
+    overflow: hidden;
+    a {
+      &:hover {
+        font-weight: 500;
+      }
+      color: $link;
+    }
+    .column-plan-id {
+      width: 15%;
+    }
+    .column-plan-name {
+      width: 25%;
+    }
+    .column-plan-type {
+      width: 20%;
+    }
+    .column-plan-category {
+      width: 20%;
+    }
+    .column-plan-status {
+      width: 20%;
+    }
+  }
+  .create-plan-heading {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: $heading;
+  }
+}
+.table-size {
+  width: 70%;
+}
+
+.plan-heading {
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.plan-heading-plan {
+  font-size: 1.125rem;
+  color: #000;
+}
+.enrollment-sub-heading {
+  font-size: 0.9rem;
+  margin-top: -1rem;
+  color: #828282;
+  font-weight: 500;
+}
+.enrollment-side-content {
+  font-size: 0.9rem;
+  margin-top: 2px;
+  color: #828282;
+  font-weight: 500;
+  text-align: end;
+}
+.plan-sub-heading,
+.company-sub-heading {
+  font-size: 0.9rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  color: #000;
+  font-weight: 500;
+}
+.pdl-1 {
+  padding: 0rem 1rem;
+}
+
+.manage-plan {
+  .breadcrumb {
+    padding: 7px 0px;
+    margin: 0px;
+    background-color: transparent;
+    font-weight: 500;
+    line-height: 18px;
+    a {
+      font-size: 0.75rem;
+      color: $link;
+    }
+    .breadcrumb-item + .breadcrumb-item::before {
+      content: ">";
+      color: $link;
+    }
+  }
+}
+
+.suggest-text {
+  padding-left: 1rem;
+  padding-top: 8px;
+  font-size: 12px;
+  &.italic {
+    font-style: italic;
+  }
+}
+
+.check-cirle {
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.green {
+  color: $completed-green;
+}
+
+.plan-success {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  h4 {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+  .mb-60 {
+    margin-bottom: 60px;
+  }
+  .text-grey {
+    color: #4d4d4d;
+  }
+  .ft-72 {
+    font-size: 72px;
+  }
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+
+.fs-12 {
+  font-size: 0.75rem;
+}
+.form-label-text {
+  font-size: 0.75rem;
+  white-space: nowrap;
+  margin-top: 5px;
+}
+.btn-primary-view {
+  background: #3a3974;
+  border: 1px solid #3a3974;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+.plus-icon-right {
+  position: absolute;
+  right: 35px;
+  top: 40px;
+}
+
+.forfeiture-total-head {
+  min-height: 40px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+  padding-left: 2rem;
+  background-color: #e6e6e6;
+  margin-bottom: 20px;
+  .w-46 {
+    width: 46%;
+  }
+}
+
+.category-sort {
+  .dropdown-component .btn.btn-primary {
+    font-size: 12px;
+    width: 250px;
+  }
+}
+.w-45 {
+  width: 45%;
+}
+.ft-12 {
+  font-size: 0.75rem !important;
+}
+.table-title-head {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #000;
+}
+.bg-title {
+  background: #fff;
+  padding: 15px 15px 10px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+
+.dropdown-image {
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+.flag-image {
+  width: 0px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+.search-bar-button {
+  border: 1px solid #949494;
+  border-left: 0px;
+}
+.single-button {
+  .form-control.form-button-group button {
+    border-right-width: 1px;
+    border-radius: 50px;
+    border-left: 1px solid #949494 !important;
+  }
+  .btn-group .btn.selected {
+    border-left: 1px solid #3a3974 !important;
+  }
+  button {
+    margin: 10px;
+  }
+  .btn-group > .btn:not(:last-child):not(.dropdown-toggle),
+  .btn-group > .btn-group:not(:last-child) > .btn {
+    border-radius: 50px;
+  }
+}
+.plan-investment-search-bar {
+  background-color: #fff;
+  //border-right-color: #495057 !important;
+  border-radius: 0.3rem 0rem 0rem 0.3rem !important;
+  border-left-color: #495057 !important;
+  border-right: 0px;
+  &:hover,
+  &:focus {
+    background-color: #fff;
+  }
+}
+.custom-added {
+  background-color: #fff;
+  color: #828282;
+  border-radius: 2px;
+  border: 2px solid #828282;
+}
+.btn-need {
+  padding: 1rem 1.5rem;
+}
+.percentage-field {
+  align-items: center;
+}
+
+.slide-scroll {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.position-fix {
+  position: fixed;
+  margin-bottom: 2rem;
+}
+.column-rules-description {
+  width: 60%;
+}
+.sources-select-employmentsources {
+  .optionheader {
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .mb-15 {
+    margin-bottom: 15px;
+    position: static;
+  }
+  .ml-5 {
+    margin-left: 5px;
+  }
+}

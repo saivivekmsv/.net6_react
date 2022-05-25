@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "trusteeCompanyName": "trustee1",
+    "contactDetails": {
+      "mobilePhoneNumber": "9876543211",
+      "workPhoneNumber": null,
+      "email": "trustee@123",
+      "website": null
+    },
+    "level": 0,
+    "tenantId": 1
+  },
+  {
+    "id": 2,
+    "trusteeCompanyName": "trustee1",
+    "contactDetails": {
+      "mobilePhoneNumber": "9876543211",
+      "workPhoneNumber": null,
+      "email": "trustee@123",
+      "website": null
+    },
+    "level": 0,
+    "tenantId": 1
+  }
+]

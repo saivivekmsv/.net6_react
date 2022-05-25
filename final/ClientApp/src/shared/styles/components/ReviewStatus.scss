@@ -1,0 +1,23 @@
+.setup-pending-wrapper {
+  .pending-module-desc {
+    font-size: 1.125rem;
+    strong {
+      font-weight: 500;
+      color: #000;
+    }
+  }
+
+  .pending-module-link {
+    color: #2f80ed;
+  }
+  i {
+    font-size: 0.75rem;
+    color: #787878;
+  }
+}
+
+.other-statues-wrapper {
+  .status-desc {
+    font-size: 1.125rem;
+  }
+}

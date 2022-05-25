@@ -1,0 +1,208 @@
+.DayPicker {
+  font-family: "Poppins";
+  .DayPicker-Caption > div {
+    font-weight: normal;
+    color: #000000;
+    text-transform: uppercase;
+  }
+  .DayPicker-Weekdays {
+    border-bottom: 1px solid #000000;
+    .DayPicker-Weekday {
+      color: #000000;
+      font-size: 0.65rem;
+      font-weight: bold;
+    }
+  }
+  .DayPicker-Week {
+    .DayPicker-Day {
+      font-size: 0.9rem;
+      margin: 0.65rem;
+      position: relative;
+      z-index: 1;
+      padding: 0.65em 0.75em;
+      &.DayPicker-Day--today {
+        position: relative;
+        font-weight: normal;
+        color: #000000;
+        &.DayPicker-Day--today::after {
+          content: "";
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          border: 1px solid $primary;
+          border-radius: 50%;
+          left: 0px;
+          top: 0px;
+        }
+      }
+      &:hover:not(.DayPicker-Day--outside) {
+        color: #ffffff !important;
+        &::before {
+          content: "";
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          border-radius: 50%;
+          background-color: $primary;
+          left: 0px;
+          top: 0px;
+          z-index: -1;
+        }
+      }
+    }
+  }
+  &.day-dropdown {
+    .DayPicker-Weekdays {
+      border: 0px;
+    }
+  }
+}
+
+.dropSide-popup {
+  .react-calendar {
+    width: 300px;
+    min-height: 200px;
+    padding-top: 0px !important;
+    font-family: "Poppins";
+    background-color: transparent;
+    border: 0px;
+    abbr[title] {
+      text-decoration: none;
+      font-size: 0.625rem;
+    }
+    .react-calendar__tile {
+      color: #000;
+      border: 1px solid transparent;
+    }
+    .react-calendar__navigation__label {
+      color: #333333;
+      font-size: 1rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .react-calendar__navigation__prev-button,
+    .react-calendar__navigation__next-button {
+      font-size: 1.25rem;
+    }
+    .react-calendar__tile {
+      background-color: transparent;
+      &:focus,
+      &:hover {
+        background-color: transparent;
+      }
+      abbr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      &:focus {
+        abbr {
+          background-color: $primary;
+          color: #fff;
+        }
+      }
+      &:hover {
+        abbr {
+          background-color: #f2f2f2;
+          color: #000;
+        }
+      }
+    }
+
+    .react-calendar__decade-view__years,
+    .react-calendar__year-view,
+    .react-calendar__month-view__days {
+      &::before {
+        content: "";
+        display: block;
+        border-top: 1px solid #000;
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+
+    .react-calendar__year-view__months__month {
+      padding: 0.65rem 0.4rem;
+    }
+    .react-calendar__decade-view__years__year {
+      padding: 1rem 0.4rem;
+    }
+
+    .react-calendar__year-view__months__month {
+      abbr {
+        width: 100%;
+        height: 25px;
+        border-radius: 5px;
+      }
+    }
+
+    .react-calendar__decade-view__years__year {
+      position: relative;
+      &:hover,
+      &:focus {
+        &::before {
+          content: "";
+          position: absolute;
+          height: 65%;
+          width: 70%;
+          left: 1rem;
+          z-index: -1;
+          top: 0.45rem;
+          border-radius: 5px;
+        }
+      }
+      &:hover {
+        color: #000;
+        &::before {
+          background-color: #f2f2f2;
+        }
+      }
+      &:focus {
+        color: #fff;
+        &::before {
+          background-color: $primary;
+        }
+      }
+    }
+
+    .react-calendar__month-view__days__day {
+      padding: 0.3rem;
+
+      abbr {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+      }
+      &.react-calendar__tile--now abbr {
+        border: 1px solid $primary;
+        background-color: #fff;
+      }
+      &.react-calendar__tile--active abbr {
+        background-color: $primary;
+        color: #fff;
+        &:focus,
+        &:hover {
+          background-color: $primary;
+        }
+      }
+    }
+    &.day-dropdown {
+      .react-calendar__month-view__weekdays {
+        display: none !important;
+      }
+      .react-calendar__month-view__days {
+        &::before {
+          border-top: 0px !important;
+        }
+      }
+      .react-calendar__tile--now {
+        abbr {
+          border-color: transparent;
+        }
+      }
+    }
+  }
+}

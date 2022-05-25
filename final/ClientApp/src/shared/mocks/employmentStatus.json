@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "label": "Active",
+      "value": 1
+    },
+    {
+      "label": "Retired",
+      "value": 2
+    },
+    {
+      "label": "Terminated",
+      "value": 3
+    },
+    {
+      "label": "Leave",
+      "value": 4
+    },
+    {
+      "label": "Military Leave",
+      "value": 5
+    },
+    {
+      "label": "Deceased",
+      "value": 6
+    },
+    {
+      "label": "Disabled",
+      "value": 7
+    },
+    {
+      "label": "Others",
+      "value": 8
+    }
+  ]
+}

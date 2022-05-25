@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "ssn": "1234-12-2001",
+    "Companyname": "360 degree",
+    "firstName": "Logan",
+    "lastName": "William",
+    "deletedBy": "Gaseeha",
+    "deletedDateAndTime": "10/20/2021 9:00 AM"
+  },
+  {
+    "id": 2,
+    "ssn": "1234-12-2002",
+    "Companyname": "Distribution corn",
+    "firstName": "Tony",
+    "lastName": "Rock",
+    "deletedBy": "Gaseeha",
+    "deletedDateAndTime": "10/20/2021 9:00 AM"
+  },
+  {
+    "id": 3,
+    "ssn": "1234-12-2003",
+    "Companyname": "Kamala crop",
+    "firstName": "William",
+    "lastName": "Sam",
+    "deletedBy": "Gaseeha",
+    "deletedDateAndTime": "10/20/2021 9:00 AM"
+  },
+  {
+    "id": 4,
+    "ssn": "1234-12-2004",
+    "Companyname": "Tony stark",
+    "firstName": "Good",
+    "lastName": "Man",
+    "deletedBy": "Gaseeha",
+    "deletedDateAndTime": "10/20/2021 9:00 AM"
+  },
+  {
+    "id": 5,
+    "ssn": "1234-12-2005",
+    "Companyname": "Stacker",
+    "firstName": "Soul",
+    "lastName": "Man",
+    "deletedBy": "Gaseeha",
+    "deletedDateAndTime": "10/20/2021 9:00 AM"
+  },
+  {
+    "id": 6,
+    "ssn": "1234-12-2006",
+    "Companyname": "Royal times",
+    "firstName": "Hulk",
+    "lastName": "Roman",
+    "deletedBy": "Gaseeha",
+    "deletedDateAndTime": "10/20/2021 9:00 AM"
+  },
+  {
+    "id": 1,
+    "ssn": "1234-12-2001",
+    "Companyname": "360 degree",
+    "firstName": "Logan",
+    "lastName": "William",
+    "deletedBy": "Gaseeha",
+    "deletedDateAndTime": "10/20/2021 9:00 AM"
+  },
+  {
+    "id": 2,
+    "ssn": "1234-12-2002",
+    "Companyname": "Distribution corn",
+    "firstName": "Tony",
+    "lastName": "Rock",
+    "deletedBy": "Gaseeha",
+    "deletedDateAndTime": "10/20/2021 9:00 AM"
+  },
+  {
+    "id": 3,
+    "ssn": "1234-12-2003",
+    "Companyname": "Kamala crop",
+    "firstName": "William",
+    "lastName": "Sam",
+    "deletedBy": "Gaseeha",
+    "deletedDateAndTime": "10/20/2021 9:00 AM"
+  },
+  {
+    "id": 4,
+    "ssn": "1234-12-2004",
+    "Companyname": "Tony stark",
+    "firstName": "Good",
+    "lastName": "Man",
+    "deletedBy": "Gaseeha",
+    "deletedDateAndTime": "10/20/2021 9:00 AM"
+  },
+  {
+    "id": 5,
+    "ssn": "1234-12-2005",
+    "Companyname": "Stacker",
+    "firstName": "Soul",
+    "lastName": "Man",
+    "deletedBy": "Gaseeha",
+    "deletedDateAndTime": "10/20/2021 9:00 AM"
+  },
+  {
+    "id": 6,
+    "ssn": "1234-12-2006",
+    "Companyname": "Royal times",
+    "firstName": "Hulk",
+    "lastName": "Roman",
+    "deletedBy": "Gaseeha",
+    "deletedDateAndTime": "10/20/2021 9:00 AM"
+  }
+]

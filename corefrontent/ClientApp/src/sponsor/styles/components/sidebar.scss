@@ -1,0 +1,21 @@
+$panel-minimize-width: 84px;
+$panel-maximize-width: 300px;
+
+.sidebar-container {
+  height: calc(100vh - 100px);  
+  display: flex;
+  position: absolute;
+  left: calc(#{$panel-minimize-width} - #{$panel-maximize-width});
+  width: $panel-maximize-width;  
+  top: 100px;
+  border-radius:0 60px 0px 0px; 
+  background-color: var(--color-theme-background);
+  overflow-x: hidden;
+  transition: 0.5s ease-in-out;
+  z-index: 2000;
+  cursor: pointer;
+}
+.expanded{
+  width:$panel-maximize-width ;
+  left: 0px;
+}

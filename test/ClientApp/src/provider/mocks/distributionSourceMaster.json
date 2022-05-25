@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "isSelected": false,
+      "sourceName": "EMP-AT",
+      "distributionsType": 1
+    },
+    {
+      "id": 2,
+      "isSelected": false,
+      "sourceName": "ER-MATCH",
+      "distributionsType": 1
+    },
+    {
+      "id": 3,
+      "isSelected": false,
+      "sourceName": "ER-DISC",
+      "distributionsType": 1
+    },
+    {
+      "id": 4,
+      "isSelected": false,
+      "sourceName": "ER-DISC",
+      "distributionsType": 1
+    },
+    {
+        "id": 5,
+        "isSelected": false,
+        "sourceName": "ER-DISC",
+        "distributionsType": 1
+    },
+    {
+        "id": 6,
+        "isSelected": false,
+        "sourceName": "ER-DISC",
+        "distributionsType": 1
+    }
+  ]
+  

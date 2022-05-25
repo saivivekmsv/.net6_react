@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "employeeName": "Kevin Thomas",
+      "eligibilityStatus": "Eligible",
+      "eligibilityDate": "12/12/2019",
+      "eligibileSince": 3650
+    },
+    {
+      "id": 2,
+      "employeeName": "Leonard",
+      "eligibilityStatus": "Eligible",
+      "eligibilityDate": "12/12/2019",
+      "eligibileSince": 3650
+    },
+    {
+      "id": 3,
+      "employeeName": "Karl Marx",
+      "eligibilityStatus": "Eligible",
+      "eligibilityDate": "12/12/2019",
+      "eligibileSince": 3650
+    },
+    {
+      "id": 4,
+      "employeeName": "Ramesh K",
+      "eligibilityStatus": "Ineligible",
+      "eligibilityDate": "12/12/2019",
+      "eligibileSince": 3650
+    }
+  ]
+  

@@ -1,0 +1,575 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdditionalEligibilityRule 1`] = `
+<body>
+  <div>
+    <form
+      class="h-100"
+    >
+      <div
+        class="d-flex flex-column manage-company h-100"
+      >
+        <div
+          class="d-flex layout-header align-items-center"
+        >
+          <div>
+            <nav
+              aria-label="breadcrumb"
+            >
+              <ol
+                class="breadcrumb"
+              >
+                <li
+                  class="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    role="button"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      Home
+                    </a>
+                  </a>
+                </li>
+                <li
+                  class="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    role="button"
+                  >
+                    <a
+                      href="/plans"
+                    >
+                      Manage Plan
+                    </a>
+                  </a>
+                </li>
+              </ol>
+            </nav>
+            <h5 />
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-center tab-wrapper"
+          />
+          <div
+            class="ml-auto"
+          >
+            <div>
+              <a
+                href="/plans"
+              >
+                <button
+                  class="btn btn-secondary"
+                  flow="add,save"
+                  link="/plans"
+                  type="button"
+                >
+                  Cancel
+                </button>
+              </a>
+                 
+              <button
+                class="btn btn-primary"
+                flow="add"
+                type="submit"
+              >
+                Save
+              </button>
+                 
+            </div>
+          </div>
+        </div>
+        <div
+          class="layout-content h-100 overflow-auto"
+        >
+          <p
+            class="mb-10"
+          >
+            Eligibility Details
+          </p>
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-7"
+            >
+              <div
+                class=" lg form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Eligibility Description(optional)
+                   
+                </label>
+                <textarea
+                  autocomplete="off"
+                  class="form-control form-control-lg"
+                  label="Eligibility Description(optional)"
+                  name="eligibilityDescription"
+                  rows="3"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-4"
+            >
+              <div
+                class="required md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Effective Start Date
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-4"
+            >
+              <div
+                class="required md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Effective End Date
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <div
+                class="required md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Applicable Eligibility Requirement
+                   
+                </label>
+                <div
+                  class="form-control form-button-group "
+                >
+                  <div
+                    aria-label="Applicable Eligibility Requirement"
+                    class="btn-group"
+                    name="eligibilityRequirement"
+                    role="group"
+                  >
+                    <button
+                      class="btn btn-primary"
+                      data-attr="Age"
+                      type="button"
+                    >
+                      Age
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-attr="Service"
+                      type="button"
+                    >
+                      Service
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-attr="Both age And service"
+                      type="button"
+                    >
+                      Both age And service
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <div
+                class="required sm form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Year of Service Definition
+                   
+                </label>
+                <div
+                  class="form-control form-button-group "
+                >
+                  <div
+                    aria-label="Year of Service Definition"
+                    class="btn-group"
+                    name="serviceDefinition"
+                    role="group"
+                  >
+                    <button
+                      class="btn btn-primary"
+                      data-attr="Actual Hours"
+                      type="button"
+                    >
+                      Actual Hours
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-attr="Elapsed Time"
+                      type="button"
+                    >
+                      Elapsed Time
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-attr="Equivalency"
+                      type="button"
+                    >
+                      Equivalency
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <div
+                class="required md form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Additional Eligibility options
+                   
+                </label>
+                <div
+                  class="form-control form-button-group "
+                >
+                  <div
+                    aria-label="Additional Eligibility options"
+                    class="btn-group"
+                    role="group"
+                  >
+                    <button
+                      class="btn btn-primary"
+                      data-attr="Date of Hire"
+                      type="button"
+                    >
+                      Date of Hire
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-attr="Employee Classification"
+                      type="button"
+                    >
+                      Employee Classification
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-attr="Both Date of Hire and Employee Classification"
+                      type="button"
+                    >
+                      Both Date of Hire and Employee Classification
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      data-attr="None"
+                      type="button"
+                    >
+                      None
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-2"
+            >
+              <div
+                class="required sm form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Date of Hire
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="col-md-2"
+            >
+              <div
+                class="required sm form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  Start Date
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="col-md-2"
+            >
+              <div
+                class="required sm form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  End Date
+                   
+                </label>
+                <button
+                  class="form-control dropSide  dropdown"
+                  style="position: relative; display: flex; align-items: center;"
+                  type="button"
+                >
+                  <select
+                    style="visibility: hidden;"
+                  >
+                    <option
+                      value=""
+                    >
+                      ------select-----
+                    </option>
+                  </select>
+                  <div
+                    class="dropSide-custom-select"
+                  >
+                    Select
+                  </div>
+                  <span
+                    class="dropSide-custom-select-arrow"
+                    style="display: flex; position: absolute; right: 0px; padding: 0px; min-width: 32px; font-size: 24px; outline: none; height: 100%;"
+                  >
+                    <span
+                      style="transform: rotate(90deg);"
+                    >
+                      &gt;
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex w-100 align-items-center justify-content-between mb-4"
+          >
+            <p
+              class="w-50 m-0 py-3"
+            >
+              Select Employee Classifications
+            </p>
+            <div
+              class=""
+            >
+              <button
+                class="btn btn-primary"
+                type="button"
+              >
+                SHOW SELECTED
+              </button>
+            </div>
+          </div>
+          <div
+            class="loader-wrapper "
+          >
+            <div
+              class="d-flex flex-column cspl-table undefined"
+            >
+              <div
+                class="d-flex table-head align-items-center undefined"
+              >
+                <div
+                  class="d-flex table-row undefined"
+                >
+                  <div
+                    class="d-flex table-head-cell   undefined"
+                  >
+                    <div
+                      class="custom-control custom-checkbox"
+                    >
+                      <input
+                        class="custom-control-input"
+                        id="master-sources-radio-head"
+                        name="master-sources-radio-head"
+                        type="checkbox"
+                      />
+                      <label
+                        class="custom-control-label"
+                        for="master-sources-radio-head"
+                        title=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex table-head-cell column-employee-classification-name  undefined"
+                  >
+                    Employee classifications
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column table-body undefined"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+`;

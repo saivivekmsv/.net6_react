@@ -1,0 +1,34 @@
+.btn-group.multi-select-button {
+  width: 500px;
+  height: calc(1.5em + 1rem + 2px);
+
+  .btn {
+    margin-right: 10px;
+    font-size: 0.75rem !important;
+    font-weight: 400 !important;
+    border-radius: 5px !important;
+    background-color: #fff;
+    border: 1px solid #949494;
+    &:focus,
+    &.focus {
+      border-color: $primary;
+      box-shadow: none;
+    }
+    &.disabled,
+    &:disabled {
+      background-color: #eeeeee;
+      cursor: not-allowed !important;
+      * {
+        cursor: not-allowed !important;
+      }
+    }
+    &[readonly] {
+      background-color: #fff;
+    }
+  }
+  .active {
+    background-color: rgba(58, 57, 116, 0.25) !important;
+    color: #3a3974 !important;
+    border: 1px solid #3a3974 !important;
+  }
+}

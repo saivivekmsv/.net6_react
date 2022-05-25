@@ -1,0 +1,55 @@
+.cspl-table {
+  /*height: 100%;*/
+  overflow: hidden;
+  a {
+    &:hover {
+      font-weight: 500;
+    }
+    color: $link;
+  }
+  .column-trusteeName {
+    width: 25%;
+  }
+  .column-trusteeMail {
+    width: 25%;
+  }
+  .column-trusteePhone {
+    width: 25%;
+  }
+  .column-trusteePlanAdded {
+    width: 25%;
+  }
+  .column-trusteePlan {
+    width: 25%;
+    justify-content: center;
+  }
+  .btn-theme {
+    color: #fff;
+    background-color: #3a3974;
+    border: 1px solid #3a3974;
+    border-radius: 4px;
+    padding: 0px 10px;
+  }
+}
+.add-plan {
+  margin-bottom: 0;
+  margin-top: 7px;
+  font-size: 14px;
+  color: #000;
+}
+
+.selected-table-value {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: fit-content;
+  font-size: 12px;
+  border: 1px solid #afafaf;
+  border-radius: 50px;
+  padding: 2px 10px;
+  margin-right: 10px;
+}
+.selected-title-head {
+  font-size: 14px;
+  margin-bottom: 0px;
+}

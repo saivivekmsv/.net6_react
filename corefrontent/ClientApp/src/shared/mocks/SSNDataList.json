@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "socialSecurityNumber": "1234-45-2008",
+    "payDate": "06/28/2020",
+    "lastName": "Parker",
+    "company": "Sample text",
+    "planName": "Sample text",
+    "address": "Sample text",
+    "planId": "Sample text"
+  },
+  {
+    "id": 2,
+    "socialSecurityNumber": "1234-45-2009",
+    "payDate": "06/28/2020",
+    "lastName": "Parkeer",
+    "company": "Sample text",
+    "planName": "Sample text",
+    "address": "Sample text",
+    "planId": "Sample text"
+  },
+  {
+    "id": 3,
+    "socialSecurityNumber": "1234-45-2010",
+    "payDate": "06/28/2020",
+    "lastName": "Parkeeeer",
+    "company": "Sample text",
+    "planName": "Sample text",
+    "address": "Sample text",
+    "planId": "Sample text"
+  },
+  {
+    "id": 4,
+    "socialSecurityNumber": "1234-45-2011",
+    "payDate": "06/28/2020",
+    "lastName": "Harris",
+    "company": "Sample text",
+    "planName": "Sample text",
+    "address": "Sample text",
+    "planId": "Sample text"
+  },
+  {
+    "id": 5,
+    "socialSecurityNumber": "1234-45-2012",
+    "payDate": "06/28/2020",
+    "lastName": "Parker",
+    "company": "Sample text",
+    "planName": "Sample text",
+    "address": "Sample text",
+    "planId": "Sample text"
+  }
+]

@@ -1,0 +1,21 @@
+.cspl-table {
+    /*max-height: 435px;*/
+    /*height: 100%;*/
+    overflow: hidden;
+    a {
+      &:hover {
+        font-weight: 500;
+      }
+      color: $link;
+    }
+    .column-sponsorName {
+      width: 40%;
+    }
+    .column-sponsorMail {
+      width: 30%;
+    }
+    .column-sponsorPhone {
+      width: 30%;
+    }
+  }
+  

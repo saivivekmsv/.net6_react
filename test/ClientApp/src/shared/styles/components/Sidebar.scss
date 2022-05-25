@@ -1,0 +1,63 @@
+$panel-minimize-width: 50px;
+$panel-maximize-width: 230px;
+
+.sidebar-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: calc(#{$panel-minimize-width} - #{$panel-maximize-width});
+    height: 100%;
+    width: $panel-maximize-width;
+    background-color: $primary;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 2000;
+  }
+
+  .sidebar-placeholder {
+    height: 100%;
+    width: $panel-minimize-width;
+  }
+
+  .sidebar-icon-holder-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .sidebar-icon-holder {
+    height: 100%;
+    width: $panel-minimize-width;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .sidebar-app {
+    width: inherit;
+  }
+
+  .sidebar-overlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(229, 229, 229, 0.6);
+    transition: 0.5s;
+    z-index: 1990;
+  }
+  &.expanded {
+    .sidebar {
+      left: 0px;
+    }
+    .sidebar-overlay {
+      display: block;
+    }
+  }
+}

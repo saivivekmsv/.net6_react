@@ -1,0 +1,102 @@
+[
+  {
+    "tileName": "Plan",
+    "countUrl": "/Plan/PlanCount",
+    "imageUrl": "/assets/icons/svg/plan.svg",
+    "hasAddIcon": true,
+    "routeToNavigateOnClick": "/plans",
+    "routeToAdd": "/manage-plan",
+    "isEnabled": true,
+    "order": 1
+  },
+  {
+    "tileName": "Company",
+    "countUrl": "/Company/CompanyCount",
+    "imageUrl": "/assets/icons/svg/company.svg",
+    "hasAddIcon": true,
+    "routeToNavigateOnClick": "/companys",
+    "routeToAdd": "/manage-Company",
+    "isEnabled": true,
+    "order": 2
+  },
+  {
+    "tileName": "Employees",
+    "countUrl": "/Employees/EmployeesCount",
+    "imageUrl": "/assets/icons/svg/employees.svg",
+    "hasAddIcon": true,
+    "routeToNavigateOnClick": "/employees",
+    "routeToAdd": "/manage-census/employee-information",
+    "isEnabled": true,
+    "order": 3
+  },
+  {
+    "tileName": "Eligibility",
+    "countUrl": "/Eligibility/EligibilityCount",
+    "imageUrl": "/assets/icons/svg/eligibility.svg",
+    "hasAddIcon": false,
+    "routeToNavigateOnClick": "/eligibility",
+    "routeToAdd": "/manage-eligibility",
+    "isEnabled": true,
+    "order": 4
+  },
+  {
+    "tileName": "Enrollment",
+    "countUrl": "/Enrollment/EnrollmentCount",
+    "imageUrl": "/assets/icons/svg/enrollment.svg",
+    "hasAddIcon": false,
+    "routeToNavigateOnClick": "/enrollment",
+    "routeToAdd": "/manage-enrollment",
+    "isEnabled": true,
+    "order": 5
+  },
+  {
+    "tileName": "Payroll",
+    "countUrl": "/Payroll/PayrollCount",
+    "imageUrl": "/assets/icons/svg/payroll.svg",
+    "hasAddIcon": false,
+    "routeToNavigateOnClick": "/payroll",
+    "routeToAdd": "/manage-payroll",
+    "isEnabled": true,
+    "order": 6
+  },
+  {
+    "tileName": "Reports",
+    "countUrl": "/Reports/ReportsCount",
+    "imageUrl": "/assets/icons/svg/reports.svg",
+    "hasAddIcon": false,
+    "routeToNavigateOnClick": "/reports",
+    "routeToAdd": "/manage-reports",
+    "isEnabled": true,
+    "order": 7
+  },
+  {
+    "tileName": "Templates",
+    "countUrl": "/Templates/TemplatesCount",
+    "imageUrl": "/assets/icons/svg/templates.svg",
+    "hasAddIcon": false,
+    "routeToNavigateOnClick": "/templates",
+    "routeToAdd": "/manage-templates",
+    "isEnabled": true,
+    "order": 8
+  },
+  {
+    "tileName": "Calculators",
+    "countUrl": "/Calculators/CalculatorsCount",
+    "imageUrl": "/assets/icons/svg/calculators.svg",
+    "hasAddIcon": false,
+    "routeToNavigateOnClick": "/calculators",
+    "routeToAdd": "/manage-calculators",
+    "isEnabled": true,
+    "order": 9
+  },
+  {
+    "tileName": "Maintenance",
+    "countUrl": "/Maintenance/MaintenanceCount",
+    "imageUrl": "/assets/icons/svg/maintenance.svg",
+    "hasAddIcon": false,
+    "routeToNavigateOnClick": "/manage-maintenance/holiday-calendar",
+    "routeToAdd": "/manage-maintenance/holiday-calendar",
+    "isEnabled": true,
+    "order": 10
+  }
+]

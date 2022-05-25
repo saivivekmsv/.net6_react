@@ -1,0 +1,173 @@
+[
+  {
+    "id": 36,
+    "name": "Company1",
+    "companyType": 0,
+    "sponsoringOrganization": null,
+    "planIds": ["plan1", "plan1", "plan1", "plan1", "plan1", "plan1"],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 37,
+    "name": "Company2",
+    "companyType": 0,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 38,
+    "name": "SPONS1",
+    "companyType": 3,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 39,
+    "name": "Test1",
+    "companyType": 0,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 95,
+    "name": "test",
+    "companyType": 1,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 260,
+    "name": "SPO3",
+    "companyType": 3,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 261,
+    "name": "SPO3",
+    "companyType": 3,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 352,
+    "name": "test25",
+    "companyType": 1,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 353,
+    "name": "test",
+    "companyType": 1,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 354,
+    "name": "test",
+    "companyType": 1,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 355,
+    "name": "test6",
+    "companyType": 1,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 356,
+    "name": "SPO4",
+    "companyType": 3,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 536,
+    "name": "SP05",
+    "companyType": 3,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 358,
+    "name": "spo6",
+    "companyType": 3,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 359,
+    "name": "spo7",
+    "companyType": 3,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 360,
+    "name": "spo7",
+    "companyType": 3,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 361,
+    "name": "teasdsa",
+    "companyType": 1,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 362,
+    "name": "test8",
+    "companyType": 1,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  },
+  {
+    "id": 363,
+    "name": "SPO8",
+    "companyType": 3,
+    "sponsoringOrganization": null,
+    "planIds": [],
+    "totalEmployees": 0,
+    "participation": 0
+  }
+]

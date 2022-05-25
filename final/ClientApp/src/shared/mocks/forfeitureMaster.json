@@ -1,0 +1,21 @@
+{
+  "totalForfeitureBalance": 10000,
+  "totalEmployerContributions": 10000,
+  "forfeitureListDetails": [
+    {
+      "id": 1,
+      "forfeitureType": "FF1",
+      "forfeitureBalance": "1,000,000.00"
+    },
+    {
+      "id": 2,
+      "forfeitureType": "FF2",
+      "forfeitureBalance": "1,000,000.00"
+    },
+    {
+      "id": 3,
+      "forfeitureType": "FF3",
+      "forfeitureBalance": "1,000,000.00"
+    }
+  ]
+}

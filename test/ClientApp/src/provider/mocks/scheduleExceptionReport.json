@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "company": "Company!",
+    "frequency": "Weekly",
+    "scheduleStartDate": "01/01/2021",
+    "scheduleEndDate": "01/01/2021",
+    "periodsStartDate": "01/01/2021",
+    "periodsEndDate": "01/01/2021",
+    "payDate": "01/01/2021"
+  },
+  {
+    "id": 2,
+    "company": "Company!",
+    "frequency": "Monthly",
+    "scheduleStartDate": "01/18/2021",
+    "scheduleEndDate": "01/18/2021",
+    "periodsStartDate": "01/18/2021",
+    "periodsEndDate": "01/18/2021",
+    "payDate": "01/18/2021"
+  },
+  {
+    "id": 3,
+    "company": "Company!",
+    "frequency": "Daily",
+    "scheduleStartDate": "01/26/2021",
+    "scheduleEndDate": "01/26/2021",
+    "periodsStartDate": "01/26/2021",
+    "periodsEndDate": "01/26/2021",
+    "payDate": "01/26/2021"
+  },
+  {
+    "id": 4,
+    "company": "Company!",
+    "frequency": "Monthly",
+    "scheduleStartDate": "02/04/2021",
+    "scheduleEndDate": "02/04/2021",
+    "periodsStartDate": "02/04/2021",
+    "periodsEndDate": "02/04/2021",
+    "payDate": "02/04/2021"
+  },
+  {
+    "id": 5,
+    "company": "Company!",
+    "frequency": "Weekly",
+    "scheduleStartDate": "02/15/2021",
+    "scheduleEndDate": "02/15/2021",
+    "periodsStartDate": "02/15/2021",
+    "periodsEndDate": "02/15/2021",
+    "payDate": "02/15/2021"
+  },
+  {
+    "id": 6,
+    "company": "Company!",
+    "frequency": "Weekly",
+    "scheduleStartDate": "04/02/2021",
+    "scheduleEndDate": "04/02/2021",
+    "periodsStartDate": "04/02/2021",
+    "periodsEndDate": "04/02/2021",
+    "payDate": "04/02/2021"
+  },
+  {
+    "id": 7,
+    "company": "Company!",
+    "frequency": "Monthly",
+    "scheduleStartDate": "05/31/2021",
+    "scheduleEndDate": "05/31/2021",
+    "periodsStartDate": "05/31/2021",
+    "periodsEndDate": "05/31/2021",
+    "payDate": "05/31/2021"
+  },
+  {
+    "id": 8,
+    "company": "Company!",
+    "frequency": "Daily",
+    "scheduleStartDate": "09/06/2021",
+    "scheduleEndDate": "09/06/2021",
+    "periodsStartDate": "09/06/2021",
+    "periodsEndDate": "09/06/2021",
+    "payDate": "09/06/2021"
+  }
+]

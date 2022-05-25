@@ -1,0 +1,27 @@
+.review-wizard-wrapper {
+  .wizard-progress {
+    border-top-width: 5px;
+    border-top-style: solid;
+    padding-top: 0.25rem;
+    font-weight: 500;
+    color: #494f5a;
+    &.todo {
+      border-color: $input-placeholder-color;
+      svg {
+        color: $input-placeholder-color;
+      }
+    }
+    &.done {
+      border-color: #27ae60;
+      svg {
+        color: #27ae60;
+      }
+    }
+    &.wip {
+      border-color: #2f80ed;
+      svg {
+        color: #2f80ed;
+      }
+    }
+  }
+}

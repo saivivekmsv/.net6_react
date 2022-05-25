@@ -1,0 +1,56 @@
+[
+  {
+    "rkPlanNumber": 1,
+    "ssn": "XXX-XX-9382",
+    "employeeName": "Jack ferry",
+    "planId": 123532,
+    "payDate": "11/25/2020",
+    "planName": "Plan A",
+    "loanRepayments": 0.0,
+    "total": 1870,
+    "transactionSourceDetails": [
+      {
+        "sourceId": 1,
+        "sourceName": "SafeHarborMatch",
+        "amount": 440.0,
+        "payDate": "12/25/2020",
+        "planId": 123532
+      },
+      {
+        "sourceId": 2,
+        "sourceName": "Match",
+        "amount": 160.0,
+        "payDate": "12/25/2020",
+        "planId": 123532
+      },
+      {
+        "sourceId": 2,
+        "sourceName": "SafeHarborNonElective",
+        "amount": 480.0,
+        "payDate": "12/25/2020",
+        "planId": 123532
+      },
+      {
+        "sourceId": 2,
+        "sourceName": "roth",
+        "amount": 320.0,
+        "payDate": "12/25/2020",
+        "planId": 123532
+      },
+      {
+        "sourceId": 2,
+        "sourceName": "profitSharing",
+        "amount": 30.0,
+        "payDate": "12/25/2020",
+        "planId": 123532
+      },
+      {
+        "sourceId": 2,
+        "sourceName": "safeHarborMatch",
+        "amount": 0.0,
+        "payDate": "12/25/2020",
+        "planId": 123532
+      }
+    ]
+  }
+]
