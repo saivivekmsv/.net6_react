@@ -1,8 +1,0 @@
-{
-    "data": [
-      { "label": "Hire Between (Inclusive)", "value": 1 },
-      { "label": "Hire On Or After", "value": 2 },
-      { "label": "Hire On Or Before", "value": 3 }
-    ]
-  }
-  

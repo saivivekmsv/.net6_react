@@ -1,8 +1,0 @@
-{
-    "data": [
-      { "label": "Participation Between (Inclusive)", "value": 1 },
-      { "label": "Participation On Or After", "value": 2 },
-      { "label": "Participation On Or Before", "value": 3 }
-    ]
-  }
-  
